@@ -1,5 +1,5 @@
 ﻿@inherits LayoutComponentBase
-
+@inject IBootstrapCss BootstrapCss
 <div class="sidebar">
     <NavMenu />
 </div>
@@ -14,3 +14,26 @@
         @Body
     </div>
 </div>
+@code{
+    private bool isServerSide = false;
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            await BootstrapCss.SetBootstrapCss("4.3.1");
+        }
+        catch (Exception)
+        {
+            isServerSide = true;
+        }
+    }
+
+    //protected override async Task OnAfterRenderAsync(bool firstRun)
+    //{
+    //    if (isServerSide == true && firstRun == true)
+    //    {
+    //        await BootstrapCss.SetBootstrapCss("4.3.1");
+    //    }
+    //}
+
+}

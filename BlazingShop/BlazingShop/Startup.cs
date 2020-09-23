@@ -16,6 +16,7 @@ using Microsoft.Extensions.Hosting;
 using BlazingShop.Areas.Identity;
 using BlazingShop.Data;
 using BlazingShop.Services;
+using BlazorStrap;
 
 namespace BlazingShop
 {
@@ -39,6 +40,7 @@ namespace BlazingShop
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddRazorPages();
             services.AddServerSideBlazor();
+            services.AddBootstrapCSS();
             services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
             services.AddSingleton<WeatherForecastService>();
         }

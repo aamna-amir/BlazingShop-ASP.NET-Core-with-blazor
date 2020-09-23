@@ -4,7 +4,14 @@
 <p>On Change <input @bind="name"/></p>
 <p>On Spontaneously <input @bind="name" @bind:event="oninput"/></p>
 <p>I am @(name!=null?name:"___________")</p>
+
+<p><button @onclick="getName">Surprise me!</button></p>
 @code {
     string name;
     string WelcomeText = "Learning Blazor!";
+
+    void getName()
+    {
+        name = "Blazor learner!";
+    }
 }

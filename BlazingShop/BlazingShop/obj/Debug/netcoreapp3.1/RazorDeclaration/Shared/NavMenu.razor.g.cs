@@ -76,6 +76,13 @@ using BlazingShop.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\_Imports.razor"
+using BlazorStrap;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

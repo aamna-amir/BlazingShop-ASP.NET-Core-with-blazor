@@ -73,6 +73,13 @@ using BlazingShop.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 10 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\_Imports.razor"
+using BlazorStrap;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Learn Blazor\FetchData.razor"
 using BlazingShop.Data;
 
