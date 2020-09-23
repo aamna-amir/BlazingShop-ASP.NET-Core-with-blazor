@@ -107,3 +107,5 @@ G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Learn Blazor\FetchData.razor.g.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Learn Blazor\Counter.razor.g.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Learn Blazor\FetchData.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Learn Blazor\LearnBlazor.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Learn Blazor\LearnBlazor.razor.g.cs
