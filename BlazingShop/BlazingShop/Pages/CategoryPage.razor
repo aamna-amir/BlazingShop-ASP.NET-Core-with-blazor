@@ -34,7 +34,7 @@ else
                         <tr>
                             <td>@obj.Name</td>
                             <td>
-                                <button class="btn btn-primary" style="width:150px">
+                                <button class="btn btn-primary" style="width:150px" @onclick="(()=>EditCategory(obj))">
                                     Edit
                                 </button>
                             </td>
@@ -53,7 +53,7 @@ else
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h3 class="text-info">Category</h3>
+                        <h3 class="text-info">@(objCategory.Id != 0 ? "Update" : "Create" ) Category</h3>
                         <button type="button" class="close" @onclick="ClosePopup">
                             <span aria-hidden="true">X</span>
                         </button>
@@ -72,12 +72,15 @@ else
                                     </div>
                                 </div>
                                 <div class="row py-2">
-                                    <div class="col-4">
-
-                                    </div>
-                                    <div class="col-8">
+                                    <div class="offset-4 col">
                                         <button class="btn btn-outline-primary" type="submit">Submit</button>
                                     </div>
+                                    @if (objCategory.Id > 0)
+                                    {
+                                        <div class="col">
+                                            <button class="btn btn-outline-danger" type="submit" @onclick="DeleteCategory">Delete</button>
+                                        </div>
+                                    }
                                 </div>
                             </div>
                         </div>
@@ -100,8 +103,23 @@ else
 
     void AddNewCategory()
     {
+        objCategory = new Category();
         objCategory.Id = 0;
         ShowPopup = true;
+    }
+
+    void EditCategory(Category category)
+    {
+        objCategory = category;
+        ShowPopup = true;
+    }
+
+    void DeleteCategory()
+    {
+        ShowPopup = false;
+        var result = Service.DeleteCategory(objCategory);
+        categories.Clear();
+        categories = Service.GetCategories();
     }
 
     void ClosePopup()
@@ -114,7 +132,14 @@ else
         var result = false;
         ShowPopup = false;
 
-        result = Service.CreateCategory(objCategory);
+        if(objCategory.Id > 0)
+        {
+            result = Service.UpdateCategory(objCategory);
+        }
+        else
+        {
+            result = Service.CreateCategory(objCategory);
+        }
 
         categories = Service.GetCategories();
     }

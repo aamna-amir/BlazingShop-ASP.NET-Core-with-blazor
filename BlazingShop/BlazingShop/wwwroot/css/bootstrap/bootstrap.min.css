@@ -6177,7 +6177,7 @@ a.close.disabled {
     height: 100%;
     overflow: hidden;
     outline: 0;
-    background-color: dimgrey;
+    background-color: #b204fc;
 }
 
 .modal-dialog {
