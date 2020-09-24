@@ -123,3 +123,7 @@ G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Learn Blazor\LearnRouting.razor.g.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Learn Blazor\LearnAdvanceRouting.razor.g.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Learn Blazor\LearnAdvanceRouting.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Components\ChildComponent.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Learn Blazor\ParentComponent.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Components\ChildComponent.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Learn Blazor\ParentComponent.razor.g.cs
