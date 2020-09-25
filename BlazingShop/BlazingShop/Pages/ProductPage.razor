@@ -76,7 +76,12 @@ else
                                         Category Name
                                     </div>
                                     <div class="col-8">
-
+                                        <select @onchange="CategorySelectionChanged" class="form-control">
+                                            @foreach(var categoryInd in categories)
+                                            {
+                                                <option value="@categoryInd.Id" selected="@(categoryInd.Id==objProduct.CategoryId? true : false)">@categoryInd.Name</option>
+                                            }
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="row py-2">
@@ -122,6 +127,9 @@ else
                                         </div>
                                     }
                                 </div>
+                            </div>
+                            <div class="col-3">
+                                <img src="@convertImageToDisplay(objProduct.Image)" width="100%" />
                             </div>
                         </div>
                     </div>
@@ -211,5 +219,13 @@ else
             return finalStr;
         }
         return "";
+    }
+
+    void CategorySelectionChanged(ChangeEventArgs e)
+    {
+        if(int.TryParse(e.Value.ToString(), out int id))
+        {
+            objProduct.CategoryId = id;
+        }
     }
 }
