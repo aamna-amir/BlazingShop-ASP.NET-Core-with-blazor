@@ -103,29 +103,32 @@ G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Web.dll
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\Document.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Learn Blazor\LearnRouting.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Learn Blazor\LearnAdvanceRouting.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Components\ChildComponent.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Learn Blazor\ParentComponent.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CategoryPage.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\bin\Debug\netcoreapp3.1\BlazorInputFile.dll
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\BlazingShop.csproj.CoreCompileInputs.cache
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\BlazingShop.MvcApplicationPartsAssemblyInfo.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\BlazingShop.MvcApplicationPartsAssemblyInfo.cache
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ProductPage.razor.g.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\BlazingShop.dll
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\CategoryPage.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Components\ChildComponent.razor.g.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Learn Blazor\Counter.razor.g.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Learn Blazor\FetchData.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Learn Blazor\LearnAdvanceRouting.razor.g.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Learn Blazor\LearnBlazor.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Learn Blazor\LearnRouting.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Learn Blazor\ParentComponent.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\ProductPage.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Shared\Document.razor.g.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Shared\LoginDisplay.razor.g.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
-G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\Document.razor.g.cs
-G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Shared\Document.razor.g.cs
-G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Learn Blazor\LearnRouting.razor.g.cs
-G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Learn Blazor\LearnRouting.razor.g.cs
-G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Learn Blazor\LearnAdvanceRouting.razor.g.cs
-G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Learn Blazor\LearnAdvanceRouting.razor.g.cs
-G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Components\ChildComponent.razor.g.cs
-G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Learn Blazor\ParentComponent.razor.g.cs
-G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Components\ChildComponent.razor.g.cs
-G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Learn Blazor\ParentComponent.razor.g.cs
-G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CategoryPage.razor.g.cs
-G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\CategoryPage.razor.g.cs

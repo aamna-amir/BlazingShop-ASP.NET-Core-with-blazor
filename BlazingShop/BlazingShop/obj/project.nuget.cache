@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vCSRiPZtotyTk2yZc8ZwQXRe8mCTA/wVXatw+S02DM7nzGoyInLlhWLf+FJSY/EZ9NwMp5zk4F9rqAy5e56EDA==",
+  "dgSpecHash": "K+k5WHNP+ozRQBCgBYdvPg2cohA4vHyVtZGpWCSnhMYwngS2QfIlRpaowR4UBmo9BCIxeCmcJ+2vKzTQgXUB0A==",
   "success": true,
   "projectFilePath": "G:\\ASP.NET\\Practice\\BlazingShop-ASP.NET-Core-with-blazor\\BlazingShop\\BlazingShop\\BlazingShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aamna\\.nuget\\packages\\blazorcomponentutilities\\1.6.0\\blazorcomponentutilities.1.6.0.nupkg.sha512",
+    "C:\\Users\\aamna\\.nuget\\packages\\blazorinputfile\\0.2.0\\blazorinputfile.0.2.0.nupkg.sha512",
     "C:\\Users\\aamna\\.nuget\\packages\\blazorstrap\\1.3.3\\blazorstrap.1.3.3.nupkg.sha512",
     "C:\\Users\\aamna\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.4\\microsoft.aspnetcore.authorization.3.1.4.nupkg.sha512",
     "C:\\Users\\aamna\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.4\\microsoft.aspnetcore.components.3.1.4.nupkg.sha512",
