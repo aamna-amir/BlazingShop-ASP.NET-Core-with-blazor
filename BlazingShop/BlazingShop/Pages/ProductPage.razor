@@ -68,7 +68,6 @@ else
                     </div>
                     <div class="modal-body">
                         <DataAnnotationsValidator/>
-                        <ValidationSummary/>
                         <div class="row">
                             <div class="col-9">
                                 <div class="row py-2">
@@ -89,7 +88,8 @@ else
                                         Product Name
                                     </div>
                                     <div class="col-8">
-                                        <input class="form-control" type="text" @bind="objProduct.Name" />
+                                        <InputText class="form-control" @bind-Value="objProduct.Name" />
+                                        <ValidationMessage For="@(()=>objProduct.Name)"></ValidationMessage>
                                     </div>
                                 </div>
                                 <div class="row py-2">
@@ -98,6 +98,7 @@ else
                                     </div>
                                     <div class="col-8">
                                         <input class="form-control" type="text" @bind="objProduct.Price" />
+                                        <ValidationMessage For="@(()=>objProduct.Price)"></ValidationMessage>
                                     </div>
                                 </div>
                                 <div class="row py-2">
@@ -106,6 +107,7 @@ else
                                     </div>
                                     <div class="col-8">
                                         <input class="form-control" type="text" @bind="objProduct.ShadeColor" />
+                                        <ValidationMessage For="@(()=>objProduct.ShadeColor)"></ValidationMessage>
                                     </div>
                                 </div>
                                 <div class="row py-2">
