@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlazingShop.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200927164417_addProductSizeToDb")]
+    [Migration("20200927170700_addProductSizeToDb")]
     partial class addProductSizeToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -65,7 +65,23 @@ namespace BlazingShop.Data.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Product");
+                    b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("BlazingShop.Data.ProductSize", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Size")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ProductSize");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

@@ -24,5 +24,43 @@ namespace BlazingShop.Services
         {
             return _db.ProductSize.ToList();
         }
+
+        public bool CreateProductSize(ProductSize objProductSize)
+        {
+            _db.ProductSize.Add(objProductSize);
+            _db.SaveChanges();
+            return true;
+        }
+
+        public bool UpdateProductSize(ProductSize objProductSize)
+        {
+            var existingProductSize = _db.ProductSize.FirstOrDefault(u => u.Id == objProductSize.Id);
+            if (existingProductSize != null)
+            {
+                existingProductSize.Size = objProductSize.Size;
+                _db.SaveChanges();
+            }
+            else
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public bool DeleteProductSize(ProductSize objProductSize)
+        {
+            var existingProductSize = _db.ProductSize.FirstOrDefault(u => u.Id == objProductSize.Id);
+            if (existingProductSize != null)
+            {
+                _db.ProductSize.Remove(existingProductSize);
+                _db.SaveChanges();
+            }
+            else
+            {
+                return false;
+            }
+            return true;
+        }
     }
+}
 }
