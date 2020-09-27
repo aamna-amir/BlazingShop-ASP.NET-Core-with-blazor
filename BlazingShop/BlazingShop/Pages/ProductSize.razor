@@ -1,25 +1,25 @@
-﻿@page "/category"
+﻿@page "/productsize"
 @using BlazingShop.Data
 @using BlazingShop.Services
 
-@inherits OwningComponentBase<CategoryServices>
+@inherits OwningComponentBase<ProductSizeService>
 
 <AuthorizeView>
     <Authorized Context="Auth">
 
-        @if (categories == null)
+        @if (productsizes == null)
         {
-            <p><em>Loading or No category exists.</em></p>
+            <p><em>Loading or No size available.</em></p>
         }
         else
         {
             <div class="container border p-3">
                 <div class="row">
                     <div class="col-5">
-                        <h1 class="text-info">Category List</h1>
+                        <h1 class="text-info">Product Sizes List</h1>
                     </div>
                     <div class="col-3">
-                        <button class="btn btn-info form-control" @onclick="AddNewCategory">Add New Category</button>
+                        <button class="btn btn-info form-control" @onclick="AddNewProductSize">Add New Product Size</button>
                     </div>
                 </div>
 
@@ -27,17 +27,17 @@
                     <table class="table table-striped">
                         <thead>
                             <tr>
-                                <th>Category Name</th>
+                                <th>Product Size</th>
                                 <th></th>
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach (var obj in categories)
+                            @foreach (var obj in productsizes)
                             {
                                 <tr>
-                                    <td>@obj.Name</td>
+                                    <td>@obj.Size</td>
                                     <td>
-                                        <button class="btn btn-primary" style="width:150px" @onclick="(()=>EditCategory(obj))">
+                                        <button class="btn btn-primary" style="width:150px" @onclick="(()=>EditProductSize(obj))">
                                             Edit
                                         </button>
                                     </td>
@@ -52,11 +52,11 @@
         @if (ShowPopup)
         {
             <div class="modal" tabindex="-1" style="display:block" role="dialog">
-                <EditForm Model="@objCategory" OnValidSubmit="@ValidSubmit">
+                <EditForm Model="@objProductSize" OnValidSubmit="@ValidSubmit">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h3 class="text-info">@(objCategory.Id != 0 ? "Update" : "Create" ) Category</h3>
+                                <h3 class="text-info">@(objProductSize.Id != 0 ? "Update" : "Create" ) Product Size</h3>
                                 <button type="button" class="close" @onclick="ClosePopup">
                                     <span aria-hidden="true">X</span>
                                 </button>
@@ -68,20 +68,20 @@
                                     <div class="col-9">
                                         <div class="row py-2">
                                             <div class="col-4">
-                                                Category Name
+                                                Product Size
                                             </div>
                                             <div class="col-8">
-                                                <input class="form-control" type="text" @bind="objCategory.Name" />
+                                                <input class="form-control" type="text" @bind="objProductSize.Size" />
                                             </div>
                                         </div>
                                         <div class="row py-2">
                                             <div class="offset-4 col">
                                                 <button class="btn btn-outline-primary" type="submit">Submit</button>
                                             </div>
-                                            @if (objCategory.Id > 0)
+                                            @if (objProductSize.Id > 0)
                                             {
                                                 <div class="col">
-                                                    <button class="btn btn-outline-danger" type="submit" @onclick="DeleteCategory">Delete</button>
+                                                    <button class="btn btn-outline-danger" type="submit" @onclick="DeleteProductSize">Delete</button>
                                                 </div>
                                             }
                                         </div>
@@ -102,8 +102,8 @@
     [CascadingParameter]
     private Task<AuthenticationState> authenticationState { get; set; }
 
-    List<Category> categories;
-    Category objCategory = new Category();
+    List<ProductSize> productsizes;
+    ProductSize objProductSize = new ProductSize();
 
     bool ShowPopup = false;
 
@@ -111,28 +111,28 @@
     {
         //var user = (await authenticationState).User;
         //var emailOdUser = user.Identity.Name;
-        categories = Service.GetCategories();
+        productsizes = Service.GetProductsSizes();
     }
 
-    void AddNewCategory()
+    void AddNewProductSize()
     {
-        objCategory = new Category();
-        objCategory.Id = 0;
+        objProductSize = new ProductSize();
+        objProductSize.Id = 0;
         ShowPopup = true;
     }
 
-    void EditCategory(Category category)
+    void EditProductSize(ProductSize productSize)
     {
-        objCategory = category;
+        objProductSize = productSize;
         ShowPopup = true;
     }
 
-    void DeleteCategory()
+    void DeleteProductSize()
     {
         ShowPopup = false;
-        var result = Service.DeleteCategory(objCategory);
-        categories.Clear();
-        categories = Service.GetCategories();
+        var result = Service.DeleteProductSize(objProductSize);
+        productsizes.Clear();
+        productsizes = Service.GetProductsSizes();
     }
 
     void ClosePopup()
@@ -145,15 +145,15 @@
         var result = false;
         ShowPopup = false;
 
-        if(objCategory.Id > 0)
+        if(objProductSize.Id > 0)
         {
-            result = Service.UpdateCategory(objCategory);
+            result = Service.UpdateProductSize(objProductSize);
         }
         else
         {
-            result = Service.CreateCategory(objCategory);
+            result = Service.CreateProductSize(objProductSize);
         }
 
-        categories = Service.GetCategories();
+        productsizes = Service.GetProductsSizes();
     }
 }
