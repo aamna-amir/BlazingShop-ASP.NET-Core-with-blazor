@@ -31,6 +31,7 @@
                                 <th>Price</th>
                                 <th>Shade Color</th>
                                 <th>Category</th>
+                                <th>Product Size</th>
                                 <th></th>
                             </tr>
                         </thead>
@@ -42,6 +43,7 @@
                                     <td>@obj.Price</td>
                                     <td>@obj.ShadeColor</td>
                                     <td>@obj.Category.Name</td>
+                                    <td>@obj.ProductSize.Size</td>
                                     <td>
                                         <button class="btn btn-primary" style="width:150px" @onclick="(()=>EditProduct(obj))">
                                             Edit
@@ -117,6 +119,19 @@
                                 </div>
                                 <div class="row py-2">
                                     <div class="col-4">
+                                        Product Size
+                                    </div>
+                                    <div class="col-8">
+                                        <select @onchange="ProductSizeSelectionChanged" class="form-control">
+                                            @foreach (var productSizeInd in productsizes)
+                                            {
+                                                <option value="@productSizeInd.Id" selected="@(productSizeInd.Id==objProduct.ProductSizeId? true : false)">@productSizeInd.Size</option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row py-2">
+                                    <div class="col-4">
                                         Image
                                     </div>
                                     <div class="col-8">
@@ -147,6 +162,7 @@
 }
 @code {
     List<Category> categories;
+    List<ProductSize> productsizes;
     List<Product> products;
     Product objProduct = new Product();
     bool ShowPopup = false;
@@ -162,6 +178,8 @@
         objProduct = new Product();
         categories = Service.GetCategoryList();
         objProduct.CategoryId = categories.ToList()[0].Id;
+        productsizes = Service.GetProductSizeList();
+        objProduct.ProductSizeId = productsizes.ToList()[0].Id;
         objProduct.Id = 0;
         ShowPopup = true;
     }
@@ -170,6 +188,7 @@
     {
         objProduct = product;
         categories = Service.GetCategoryList();
+        productsizes = Service.GetProductSizeList();
         ShowPopup = true;
     }
 
@@ -233,6 +252,14 @@
         if (int.TryParse(e.Value.ToString(), out int id))
         {
             objProduct.CategoryId = id;
+        }
+    }
+    
+    void ProductSizeSelectionChanged(ChangeEventArgs e)
+    {
+        if (int.TryParse(e.Value.ToString(), out int id))
+        {
+            objProduct.ProductSizeId = id;
         }
     }
 }

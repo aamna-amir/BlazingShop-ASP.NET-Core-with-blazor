@@ -132,3 +132,5 @@ G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ProductSizePage.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\ProductSizePage.razor.g.cs

@@ -21,6 +21,9 @@ namespace BlazingShop.Data
         public int CategoryId { get; set; }
         [ForeignKey("CategoryId")]
         public virtual Category Category { get; set; }
+        public int ProductSizeId { get; set; }
+        [ForeignKey("ProductSizeId")]
+        public virtual ProductSize ProductSize { get; set; }
 
     }
 }

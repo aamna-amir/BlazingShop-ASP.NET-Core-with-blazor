@@ -19,17 +19,22 @@ namespace BlazingShop.Services
         public Product GetProduct(int productId)
         {
             Product obj = new Product();
-            return _db.Products.Include(u => u.Category).FirstOrDefault(u => u.Id == productId);
+            return _db.Products.Include(u => u.Category).Include(u => u.ProductSize).FirstOrDefault(u => u.Id == productId);
         }
 
         public List<Product> GetProducts()
         {
-            return _db.Products.Include(u => u.Category).ToList();
+            return _db.Products.Include(u => u.Category).Include(u => u.ProductSize).ToList();
         }
 
         public List<Category> GetCategoryList()
         {
             return _db.Categories.ToList();
+        }
+
+        public List<ProductSize> GetProductSizeList()
+        {
+            return _db.ProductSize.ToList();
         }
 
         public bool CreateProduct(Product objProduct)
