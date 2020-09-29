@@ -1,15 +1,22 @@
 ﻿@page "/"
 <Document Title="Home" />
-<h1>Hello, world!</h1>
 
-Welcome to your new app.
-<BSButton Color="Color.Primary">primary</BSButton>
-<BSButton Color="Color.Secondary">secondary</BSButton>
-<BSButton Color="Color.Success">success</BSButton>
-<BSButton Color="Color.Info">info</BSButton>
-<BSButton Color="Color.Warning">warning</BSButton>
-<BSButton Color="Color.Danger">danger</BSButton>
-<BSButton Color="Color.Light">light</BSButton>
-<BSButton Color="Color.Dark">dark</BSButton>
-<BSButton Color="Color.Link">link</BSButton>
-<SurveyPrompt Title="How is Blazor working for you?" />
+@using BlazingShop.Services;
+@using BlazingShop.Data;
+@inherits OwningComponentBase<ProductServices>
+
+<div class="row">
+    @foreach(var product in ListProduct)
+    {
+        <BlazingShop.Pages.Components.IndividualProduct product="product"></BlazingShop.Pages.Components.IndividualProduct>
+    }
+</div>
+
+
+@code {
+    List<Product> ListProduct = new List<Product>();
+    protected override void OnInitialized()
+    {
+        ListProduct = Service.GetProducts();
+    }
+}

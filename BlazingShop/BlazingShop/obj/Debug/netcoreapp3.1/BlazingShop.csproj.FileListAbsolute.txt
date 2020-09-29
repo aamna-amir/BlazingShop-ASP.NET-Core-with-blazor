@@ -134,3 +134,15 @@ G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ProductSizePage.razor.g.cs
 G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\ProductSizePage.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Components\IndividualProduct.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Components\IndividualProduct.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Components\AppointmentComponent.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Components\DetailsComponent.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Details.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Components\AppointmentComponent.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Components\DetailsComponent.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\Details.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AppointmentBooked.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\AppointmentBooked.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AppointmetPage.razor.g.cs
+G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.1\Razor\Pages\AppointmetPage.razor.g.cs
