@@ -93,19 +93,15 @@ using BlazingShop.Data;
         {
             __builder.OpenElement(0, "div");
             __builder.AddAttribute(1, "class", "col-3");
-            __builder.AddMarkupContent(2, "\r\n    ");
-            __builder.OpenElement(3, "div");
-            __builder.AddAttribute(4, "class", " card-background card mb-4");
-            __builder.AddMarkupContent(5, "\r\n        ");
-            __builder.OpenElement(6, "div");
-            __builder.AddAttribute(7, "class", "card-header");
-            __builder.AddMarkupContent(8, "\r\n            ");
-            __builder.OpenElement(9, "h4");
-            __builder.AddAttribute(10, "class", "my-0 font-weight-normal text-center");
-            __builder.AddMarkupContent(11, "\r\n                ");
-            __builder.OpenElement(12, "label");
-            __builder.AddAttribute(13, "style", "font-size:23px;color:steelblue;");
-            __builder.AddContent(14, 
+            __builder.OpenElement(2, "div");
+            __builder.AddAttribute(3, "class", " card-background card mb-4");
+            __builder.OpenElement(4, "div");
+            __builder.AddAttribute(5, "class", "card-header");
+            __builder.OpenElement(6, "h4");
+            __builder.AddAttribute(7, "class", "my-0 font-weight-normal text-center");
+            __builder.OpenElement(8, "label");
+            __builder.AddAttribute(9, "style", "font-size:23px;color:steelblue;");
+            __builder.AddContent(10, 
 #nullable restore
 #line 7 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\IndividualProduct.razor"
                                                                 product.Name
@@ -115,15 +111,13 @@ using BlazingShop.Data;
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(15, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(16, "\r\n        ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(17, "\r\n\r\n        ");
-            __builder.OpenElement(18, "img");
-            __builder.AddAttribute(19, "class", "card-img-top");
-            __builder.AddAttribute(20, "style", "height:200px;");
-            __builder.AddAttribute(21, "src", 
+            __builder.AddMarkupContent(11, "\r\n\r\n        ");
+            __builder.OpenElement(12, "img");
+            __builder.AddAttribute(13, "class", "card-img-top");
+            __builder.AddAttribute(14, "style", "height:200px;");
+            __builder.AddAttribute(15, "src", 
 #nullable restore
 #line 11 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\IndividualProduct.razor"
                                                               convertImageToDisplay(product.Image)
@@ -132,23 +126,20 @@ using BlazingShop.Data;
 #line hidden
 #nullable disable
             );
-            __builder.AddAttribute(22, "alt", "Card Image");
+            __builder.AddAttribute(16, "alt", "Card Image");
             __builder.CloseElement();
-            __builder.AddMarkupContent(23, "\r\n        ");
-            __builder.OpenElement(24, "div");
-            __builder.AddAttribute(25, "class", "card-body card-background");
-            __builder.AddAttribute(26, "style", "background-color:#F7F7F7");
-            __builder.AddMarkupContent(27, "\r\n            ");
-            __builder.OpenElement(28, "div");
-            __builder.AddAttribute(29, "class", "d-flex justify-content-between align-items-center");
-            __builder.AddMarkupContent(30, "\r\n                ");
-            __builder.OpenElement(31, "div");
-            __builder.AddAttribute(32, "class", "btn-group");
-            __builder.AddMarkupContent(33, "\r\n                    ");
-            __builder.OpenElement(34, "label");
-            __builder.AddAttribute(35, "style", "font-size:20px; color:#a51313");
-            __builder.OpenElement(36, "b");
-            __builder.AddContent(37, 
+            __builder.AddMarkupContent(17, "\r\n        ");
+            __builder.OpenElement(18, "div");
+            __builder.AddAttribute(19, "class", "card-body card-background");
+            __builder.AddAttribute(20, "style", "background-color:#F7F7F7");
+            __builder.OpenElement(21, "div");
+            __builder.AddAttribute(22, "class", "d-flex justify-content-between align-items-center");
+            __builder.OpenElement(23, "div");
+            __builder.AddAttribute(24, "class", "btn-group");
+            __builder.OpenElement(25, "label");
+            __builder.AddAttribute(26, "style", "font-size:20px; color:#a51313");
+            __builder.OpenElement(27, "b");
+            __builder.AddContent(28, 
 #nullable restore
 #line 15 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\IndividualProduct.razor"
                                                                      product.Price
@@ -158,13 +149,12 @@ using BlazingShop.Data;
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddContent(38, "/sq.ft");
+            __builder.AddContent(29, "/sq.ft");
             __builder.CloseElement();
-            __builder.AddMarkupContent(39, "\r\n                ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(40, "\r\n                ");
-            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(41);
-            __builder.AddAttribute(42, "href", 
+            __builder.AddMarkupContent(30, "\r\n                ");
+            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(31);
+            __builder.AddAttribute(32, "href", 
 #nullable restore
 #line 17 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\IndividualProduct.razor"
                                  $"/details/{product.Id}"
@@ -173,19 +163,15 @@ using BlazingShop.Data;
 #line hidden
 #nullable disable
             );
-            __builder.AddAttribute(43, "class", "btn btn-success pull-right btn-outline-info text-white");
-            __builder.AddAttribute(44, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddContent(45, "Details");
+            __builder.AddAttribute(33, "class", "btn btn-success pull-right btn-outline-info text-white");
+            __builder.AddAttribute(34, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+                __builder2.AddContent(35, "Details");
             }
             ));
             __builder.CloseComponent();
-            __builder.AddMarkupContent(46, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(47, "\r\n        ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(48, "\r\n    ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(49, "\r\n");
             __builder.CloseElement();
         }
         #pragma warning restore 1998

@@ -112,7 +112,6 @@ using BlazingShop.Services;
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(4, "\r\n\r\n");
 #nullable restore
 #line 11 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Details.razor"
  if(ShowAppointment)
@@ -121,9 +120,8 @@ using BlazingShop.Services;
 #line default
 #line hidden
 #nullable disable
-            __builder.AddContent(5, "    ");
-            __builder.OpenComponent<BlazingShop.Pages.Components.AppointmentComponent>(6);
-            __builder.AddAttribute(7, "OnClickShowDetails", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create(this, 
+            __builder.OpenComponent<BlazingShop.Pages.Components.AppointmentComponent>(4);
+            __builder.AddAttribute(5, "OnClickShowDetails", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create(this, 
 #nullable restore
 #line 13 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Details.razor"
                                                                            OnClickShowDetails
@@ -132,7 +130,7 @@ using BlazingShop.Services;
 #line hidden
 #nullable disable
             )));
-            __builder.AddAttribute(8, "appointment", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<BlazingShop.Data.Appointment>(
+            __builder.AddAttribute(6, "appointment", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<BlazingShop.Data.Appointment>(
 #nullable restore
 #line 13 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Details.razor"
                                                                                                             appointment
@@ -142,7 +140,6 @@ using BlazingShop.Services;
 #nullable disable
             ));
             __builder.CloseComponent();
-            __builder.AddMarkupContent(9, "\r\n");
 #nullable restore
 #line 14 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Details.razor"
 }
@@ -152,9 +149,8 @@ else
 #line default
 #line hidden
 #nullable disable
-            __builder.AddContent(10, "    ");
-            __builder.OpenComponent<BlazingShop.Pages.Components.DetailsComponent>(11);
-            __builder.AddAttribute(12, "OnClickShowAppointment", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create(this, 
+            __builder.OpenComponent<BlazingShop.Pages.Components.DetailsComponent>(7);
+            __builder.AddAttribute(8, "OnClickShowAppointment", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create(this, 
 #nullable restore
 #line 17 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Details.razor"
                                                                            OnClickShowAppointment
@@ -163,7 +159,7 @@ else
 #line hidden
 #nullable disable
             )));
-            __builder.AddAttribute(13, "appointment", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<BlazingShop.Data.Appointment>(
+            __builder.AddAttribute(9, "appointment", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<BlazingShop.Data.Appointment>(
 #nullable restore
 #line 17 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Details.razor"
                                                                                                                 appointment
@@ -173,7 +169,6 @@ else
 #nullable disable
             ));
             __builder.CloseComponent();
-            __builder.AddMarkupContent(14, "\r\n");
 #nullable restore
 #line 18 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Details.razor"
 }

@@ -87,10 +87,9 @@ using BlazorStrap;
             __builder.AddMarkupContent(0, "<h3>ChildComponent</h3>\r\n");
             __builder.OpenElement(1, "div");
             __builder.AddAttribute(2, "class", "panel panel-default");
-            __builder.AddMarkupContent(3, "\r\n    ");
-            __builder.OpenElement(4, "div");
-            __builder.AddAttribute(5, "class", "panel-heading alert alert-info");
-            __builder.AddContent(6, 
+            __builder.OpenElement(3, "div");
+            __builder.AddAttribute(4, "class", "panel-heading alert alert-info");
+            __builder.AddContent(5, 
 #nullable restore
 #line 3 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\ChildComponent.razor"
                                                  Title
@@ -100,10 +99,10 @@ using BlazorStrap;
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(7, "\r\n    ");
-            __builder.OpenElement(8, "div");
-            __builder.AddAttribute(9, "class", "panel-body alert alert-success");
-            __builder.AddContent(10, 
+            __builder.AddMarkupContent(6, "\r\n    ");
+            __builder.OpenElement(7, "div");
+            __builder.AddAttribute(8, "class", "panel-body alert alert-success");
+            __builder.AddContent(9, 
 #nullable restore
 #line 4 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\ChildComponent.razor"
                                                  ChildContent
@@ -113,12 +112,11 @@ using BlazorStrap;
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(11, "\r\n");
             __builder.CloseElement();
-            __builder.AddMarkupContent(12, "\r\n\r\n");
-            __builder.OpenElement(13, "button");
-            __builder.AddAttribute(14, "class", "btn btn-danger");
-            __builder.AddAttribute(15, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+            __builder.AddMarkupContent(10, "\r\n\r\n");
+            __builder.OpenElement(11, "button");
+            __builder.AddAttribute(12, "class", "btn btn-danger");
+            __builder.AddAttribute(13, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 7 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\ChildComponent.razor"
                                          OnClickMethod
@@ -127,7 +125,7 @@ using BlazorStrap;
 #line hidden
 #nullable disable
             ));
-            __builder.AddContent(16, "Button to be clicked");
+            __builder.AddContent(14, "Button to be clicked");
             __builder.CloseElement();
         }
         #pragma warning restore 1998

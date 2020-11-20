@@ -105,7 +105,6 @@ using BlazingShop.Data;
             __builder.AddMarkupContent(2, "\r\n\r\n\r\n");
             __builder.OpenElement(3, "div");
             __builder.AddAttribute(4, "class", "row");
-            __builder.AddMarkupContent(5, "\r\n");
 #nullable restore
 #line 9 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Index.razor"
      foreach(var product in ListProduct)
@@ -114,9 +113,8 @@ using BlazingShop.Data;
 #line default
 #line hidden
 #nullable disable
-            __builder.AddContent(6, "        ");
-            __builder.OpenComponent<BlazingShop.Pages.Components.IndividualProduct>(7);
-            __builder.AddAttribute(8, "product", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<BlazingShop.Data.Product>(
+            __builder.OpenComponent<BlazingShop.Pages.Components.IndividualProduct>(5);
+            __builder.AddAttribute(6, "product", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<BlazingShop.Data.Product>(
 #nullable restore
 #line 11 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Index.razor"
                                                                  product
@@ -126,7 +124,6 @@ using BlazingShop.Data;
 #nullable disable
             ));
             __builder.CloseComponent();
-            __builder.AddMarkupContent(9, "\r\n");
 #nullable restore
 #line 12 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Index.razor"
     }

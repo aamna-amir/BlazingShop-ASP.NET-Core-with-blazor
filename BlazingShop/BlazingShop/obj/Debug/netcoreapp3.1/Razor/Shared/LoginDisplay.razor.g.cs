@@ -86,12 +86,11 @@ using BlazorStrap;
         {
             __builder.OpenComponent<Microsoft.AspNetCore.Components.Authorization.AuthorizeView>(0);
             __builder.AddAttribute(1, "Authorized", (Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>)((context) => (__builder2) => {
-                __builder2.AddMarkupContent(2, "\r\n        ");
-                __builder2.OpenElement(3, "a");
-                __builder2.AddAttribute(4, "href", "Identity/Account/Manage");
-                __builder2.AddAttribute(5, "class", "text-white-50");
-                __builder2.AddContent(6, "Hello, ");
-                __builder2.AddContent(7, 
+                __builder2.OpenElement(2, "a");
+                __builder2.AddAttribute(3, "href", "Identity/Account/Manage");
+                __builder2.AddAttribute(4, "class", "text-white-50");
+                __builder2.AddContent(5, "Hello, ");
+                __builder2.AddContent(6, 
 #nullable restore
 #line 3 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Shared\LoginDisplay.razor"
                                                                         context.User.Identity.Name
@@ -100,16 +99,15 @@ using BlazorStrap;
 #line hidden
 #nullable disable
                 );
-                __builder2.AddContent(8, "!");
+                __builder2.AddContent(7, "!");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(9, "\r\n        ");
-                __builder2.AddMarkupContent(10, "<form method=\"post\" action=\"Identity/Account/LogOut\">\r\n            <button type=\"submit\" class=\"nav-link btn btn-link text-white-50\">Log out</button>\r\n        </form>\r\n    ");
+                __builder2.AddMarkupContent(8, "\r\n        ");
+                __builder2.AddMarkupContent(9, "<form method=\"post\" action=\"Identity/Account/LogOut\"><button type=\"submit\" class=\"nav-link btn btn-link text-white-50\">Log out</button></form>");
             }
             ));
-            __builder.AddAttribute(11, "NotAuthorized", (Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>)((context) => (__builder2) => {
-                __builder2.AddMarkupContent(12, "\r\n        ");
-                __builder2.AddMarkupContent(13, "<a href=\"Identity/Account/Register\" class=\"text-white-50\">Register</a>\r\n        ");
-                __builder2.AddMarkupContent(14, "<a href=\"Identity/Account/Login\" class=\"text-white-50\">Log in</a>\r\n    ");
+            __builder.AddAttribute(10, "NotAuthorized", (Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>)((context) => (__builder2) => {
+                __builder2.AddMarkupContent(11, "<a href=\"Identity/Account/Register\" class=\"text-white-50\">Register</a>\r\n        ");
+                __builder2.AddMarkupContent(12, "<a href=\"Identity/Account/Login\" class=\"text-white-50\">Log in</a>");
             }
             ));
             __builder.CloseComponent();

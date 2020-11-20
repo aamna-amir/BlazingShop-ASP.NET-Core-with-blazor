@@ -93,19 +93,15 @@ using BlazingShop.Data;
         {
             __builder.OpenElement(0, "div");
             __builder.AddAttribute(1, "class", "p-4 border rounded row");
-            __builder.AddMarkupContent(2, "\r\n    ");
-            __builder.OpenElement(3, "div");
-            __builder.AddAttribute(4, "class", "col-8");
-            __builder.AddMarkupContent(5, "\r\n        ");
-            __builder.OpenElement(6, "div");
-            __builder.AddAttribute(7, "class", "form-group row");
-            __builder.AddMarkupContent(8, "\r\n            ");
-            __builder.AddMarkupContent(9, "<div class=\"col-4\">\r\n                Name\r\n            </div>\r\n            ");
-            __builder.OpenElement(10, "div");
-            __builder.AddAttribute(11, "class", "col-8");
-            __builder.AddMarkupContent(12, "\r\n                ");
-            __builder.OpenElement(13, "input");
-            __builder.AddAttribute(14, "value", 
+            __builder.OpenElement(2, "div");
+            __builder.AddAttribute(3, "class", "col-8");
+            __builder.OpenElement(4, "div");
+            __builder.AddAttribute(5, "class", "form-group row");
+            __builder.AddMarkupContent(6, "<div class=\"col-4\">\r\n                Name\r\n            </div>\r\n            ");
+            __builder.OpenElement(7, "div");
+            __builder.AddAttribute(8, "class", "col-8");
+            __builder.OpenElement(9, "input");
+            __builder.AddAttribute(10, "value", 
 #nullable restore
 #line 10 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\DetailsComponent.razor"
                                appointment.Product.Name
@@ -114,23 +110,19 @@ using BlazingShop.Data;
 #line hidden
 #nullable disable
             );
-            __builder.AddAttribute(15, "class", "form-control");
-            __builder.AddAttribute(16, "readonly", true);
+            __builder.AddAttribute(11, "class", "form-control");
+            __builder.AddAttribute(12, "readonly", true);
             __builder.CloseElement();
-            __builder.AddMarkupContent(17, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(18, "\r\n        ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(19, "\r\n        ");
-            __builder.OpenElement(20, "div");
-            __builder.AddAttribute(21, "class", "form-group row");
-            __builder.AddMarkupContent(22, "\r\n            ");
-            __builder.AddMarkupContent(23, "<div class=\"col-4\">\r\n                ShadeColor\r\n            </div>\r\n            ");
-            __builder.OpenElement(24, "div");
-            __builder.AddAttribute(25, "class", "col-8");
-            __builder.AddMarkupContent(26, "\r\n                ");
-            __builder.OpenElement(27, "input");
-            __builder.AddAttribute(28, "value", 
+            __builder.AddMarkupContent(13, "\r\n        ");
+            __builder.OpenElement(14, "div");
+            __builder.AddAttribute(15, "class", "form-group row");
+            __builder.AddMarkupContent(16, "<div class=\"col-4\">\r\n                ShadeColor\r\n            </div>\r\n            ");
+            __builder.OpenElement(17, "div");
+            __builder.AddAttribute(18, "class", "col-8");
+            __builder.OpenElement(19, "input");
+            __builder.AddAttribute(20, "value", 
 #nullable restore
 #line 18 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\DetailsComponent.razor"
                                appointment.Product.ShadeColor
@@ -139,23 +131,19 @@ using BlazingShop.Data;
 #line hidden
 #nullable disable
             );
-            __builder.AddAttribute(29, "class", "form-control");
-            __builder.AddAttribute(30, "readonly", true);
+            __builder.AddAttribute(21, "class", "form-control");
+            __builder.AddAttribute(22, "readonly", true);
             __builder.CloseElement();
-            __builder.AddMarkupContent(31, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(32, "\r\n        ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(33, "\r\n        ");
-            __builder.OpenElement(34, "div");
-            __builder.AddAttribute(35, "class", "form-group row");
-            __builder.AddMarkupContent(36, "\r\n            ");
-            __builder.AddMarkupContent(37, "<div class=\"col-4\">\r\n                Price\r\n            </div>\r\n            ");
-            __builder.OpenElement(38, "div");
-            __builder.AddAttribute(39, "class", "col-8");
-            __builder.AddMarkupContent(40, "\r\n                ");
-            __builder.OpenElement(41, "input");
-            __builder.AddAttribute(42, "value", 
+            __builder.AddMarkupContent(23, "\r\n        ");
+            __builder.OpenElement(24, "div");
+            __builder.AddAttribute(25, "class", "form-group row");
+            __builder.AddMarkupContent(26, "<div class=\"col-4\">\r\n                Price\r\n            </div>\r\n            ");
+            __builder.OpenElement(27, "div");
+            __builder.AddAttribute(28, "class", "col-8");
+            __builder.OpenElement(29, "input");
+            __builder.AddAttribute(30, "value", 
 #nullable restore
 #line 26 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\DetailsComponent.razor"
                                appointment.Product.Price
@@ -164,23 +152,19 @@ using BlazingShop.Data;
 #line hidden
 #nullable disable
             );
-            __builder.AddAttribute(43, "class", "form-control");
-            __builder.AddAttribute(44, "readonly", true);
+            __builder.AddAttribute(31, "class", "form-control");
+            __builder.AddAttribute(32, "readonly", true);
             __builder.CloseElement();
-            __builder.AddMarkupContent(45, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(46, "\r\n        ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(47, "\r\n        ");
-            __builder.OpenElement(48, "div");
-            __builder.AddAttribute(49, "class", "form-group row");
-            __builder.AddMarkupContent(50, "\r\n            ");
-            __builder.AddMarkupContent(51, "<div class=\"col-4\">\r\n                Category Name\r\n            </div>\r\n            ");
-            __builder.OpenElement(52, "div");
-            __builder.AddAttribute(53, "class", "col-8");
-            __builder.AddMarkupContent(54, "\r\n                ");
-            __builder.OpenElement(55, "input");
-            __builder.AddAttribute(56, "value", 
+            __builder.AddMarkupContent(33, "\r\n        ");
+            __builder.OpenElement(34, "div");
+            __builder.AddAttribute(35, "class", "form-group row");
+            __builder.AddMarkupContent(36, "<div class=\"col-4\">\r\n                Category Name\r\n            </div>\r\n            ");
+            __builder.OpenElement(37, "div");
+            __builder.AddAttribute(38, "class", "col-8");
+            __builder.OpenElement(39, "input");
+            __builder.AddAttribute(40, "value", 
 #nullable restore
 #line 34 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\DetailsComponent.razor"
                                appointment.Product.Category.Name
@@ -189,23 +173,19 @@ using BlazingShop.Data;
 #line hidden
 #nullable disable
             );
-            __builder.AddAttribute(57, "class", "form-control");
-            __builder.AddAttribute(58, "readonly", true);
+            __builder.AddAttribute(41, "class", "form-control");
+            __builder.AddAttribute(42, "readonly", true);
             __builder.CloseElement();
-            __builder.AddMarkupContent(59, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(60, "\r\n        ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(61, "\r\n        ");
-            __builder.OpenElement(62, "div");
-            __builder.AddAttribute(63, "class", "form-group row");
-            __builder.AddMarkupContent(64, "\r\n            ");
-            __builder.AddMarkupContent(65, "<div class=\"col-4\">\r\n                Product Size\r\n            </div>\r\n            ");
-            __builder.OpenElement(66, "div");
-            __builder.AddAttribute(67, "class", "col-8");
-            __builder.AddMarkupContent(68, "\r\n                ");
-            __builder.OpenElement(69, "input");
-            __builder.AddAttribute(70, "value", 
+            __builder.AddMarkupContent(43, "\r\n        ");
+            __builder.OpenElement(44, "div");
+            __builder.AddAttribute(45, "class", "form-group row");
+            __builder.AddMarkupContent(46, "<div class=\"col-4\">\r\n                Product Size\r\n            </div>\r\n            ");
+            __builder.OpenElement(47, "div");
+            __builder.AddAttribute(48, "class", "col-8");
+            __builder.OpenElement(49, "input");
+            __builder.AddAttribute(50, "value", 
 #nullable restore
 #line 42 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\DetailsComponent.razor"
                                appointment.Product.ProductSize.Size
@@ -214,24 +194,20 @@ using BlazingShop.Data;
 #line hidden
 #nullable disable
             );
-            __builder.AddAttribute(71, "class", "form-control");
-            __builder.AddAttribute(72, "readonly", true);
+            __builder.AddAttribute(51, "class", "form-control");
+            __builder.AddAttribute(52, "readonly", true);
             __builder.CloseElement();
-            __builder.AddMarkupContent(73, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(74, "\r\n        ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(75, "\r\n        ");
-            __builder.OpenElement(76, "div");
-            __builder.AddAttribute(77, "class", "form-group row");
-            __builder.AddMarkupContent(78, "\r\n            ");
-            __builder.AddMarkupContent(79, "<div class=\"col-4\">\r\n            </div>\r\n            ");
-            __builder.AddMarkupContent(80, "<div class=\"col-4\">\r\n                <a href=\"/\" class=\"btn btn-success form-control\">Back to List</a> \r\n            </div>\r\n            ");
-            __builder.OpenElement(81, "div");
-            __builder.AddAttribute(82, "class", "col-4");
-            __builder.AddMarkupContent(83, "\r\n                ");
-            __builder.OpenElement(84, "button");
-            __builder.AddAttribute(85, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+            __builder.AddMarkupContent(53, "\r\n        ");
+            __builder.OpenElement(54, "div");
+            __builder.AddAttribute(55, "class", "form-group row");
+            __builder.AddMarkupContent(56, "<div class=\"col-4\"></div>\r\n            ");
+            __builder.AddMarkupContent(57, "<div class=\"col-4\"><a href=\"/\" class=\"btn btn-success form-control\">Back to List</a></div>\r\n            ");
+            __builder.OpenElement(58, "div");
+            __builder.AddAttribute(59, "class", "col-4");
+            __builder.OpenElement(60, "button");
+            __builder.AddAttribute(61, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 52 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\DetailsComponent.razor"
                                   OnClickShowAppointment
@@ -240,21 +216,17 @@ using BlazingShop.Data;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(86, "class", "btn btn-primary form-control");
-            __builder.AddMarkupContent(87, "\r\n                    Book Appointment\r\n                ");
+            __builder.AddAttribute(62, "class", "btn btn-primary form-control");
+            __builder.AddMarkupContent(63, "\r\n                    Book Appointment\r\n                ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(88, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(89, "\r\n        ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(90, "\r\n    ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(91, "\r\n    ");
-            __builder.OpenElement(92, "div");
-            __builder.AddAttribute(93, "class", "offset-1 col-3");
-            __builder.AddMarkupContent(94, "\r\n        ");
-            __builder.OpenElement(95, "img");
-            __builder.AddAttribute(96, "src", 
+            __builder.AddMarkupContent(64, "\r\n    ");
+            __builder.OpenElement(65, "div");
+            __builder.AddAttribute(66, "class", "offset-1 col-3");
+            __builder.OpenElement(67, "img");
+            __builder.AddAttribute(68, "src", 
 #nullable restore
 #line 59 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\DetailsComponent.razor"
                    convertImageToDisplay(appointment.Product.Image)
@@ -263,12 +235,10 @@ using BlazingShop.Data;
 #line hidden
 #nullable disable
             );
-            __builder.AddAttribute(97, "width", "200px");
-            __builder.AddAttribute(98, "style", "border-radius: 5px; border: 1px solid #bbb9b9");
+            __builder.AddAttribute(69, "width", "200px");
+            __builder.AddAttribute(70, "style", "border-radius: 5px; border: 1px solid #bbb9b9");
             __builder.CloseElement();
-            __builder.AddMarkupContent(99, "\r\n    ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(100, "\r\n");
             __builder.CloseElement();
         }
         #pragma warning restore 1998

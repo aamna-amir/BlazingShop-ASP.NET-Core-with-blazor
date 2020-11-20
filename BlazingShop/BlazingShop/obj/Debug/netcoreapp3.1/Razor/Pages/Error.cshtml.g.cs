@@ -12,7 +12,22 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 1 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\_ViewImports.cshtml"
+using BlazingShop.Areas.Identity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"428411afd2829f3f58bef76ee01a09571c34c9aa", @"/Pages/Error.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3959927117b21eed1dcd538cd1cc3c81fd406f8c", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Error : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         #pragma warning disable 1998

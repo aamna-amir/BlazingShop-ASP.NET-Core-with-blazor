@@ -104,7 +104,7 @@ using BlazingShop.Services;
             __builder.CloseComponent();
             __builder.AddMarkupContent(2, "\r\n");
             __builder.AddMarkupContent(3, "<h1>Weather forecast</h1>\r\n\r\n");
-            __builder.AddMarkupContent(4, "<p>This component demonstrates fetching data from a service.</p>\r\n\r\n");
+            __builder.AddMarkupContent(4, "<p>This component demonstrates fetching data from a service.</p>");
 #nullable restore
 #line 12 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Learn Blazor\FetchData.razor"
  if (forecasts == null)
@@ -113,8 +113,7 @@ using BlazingShop.Services;
 #line default
 #line hidden
 #nullable disable
-            __builder.AddContent(5, "    ");
-            __builder.AddMarkupContent(6, "<p><em>Loading...</em></p>\r\n");
+            __builder.AddMarkupContent(5, "<p><em>Loading...</em></p>");
 #nullable restore
 #line 15 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Learn Blazor\FetchData.razor"
 }
@@ -124,13 +123,10 @@ else
 #line default
 #line hidden
 #nullable disable
-            __builder.AddContent(7, "    ");
-            __builder.OpenElement(8, "table");
-            __builder.AddAttribute(9, "class", "table");
-            __builder.AddMarkupContent(10, "\r\n        ");
-            __builder.AddMarkupContent(11, "<thead>\r\n            <tr>\r\n                <th>Date</th>\r\n                <th>Temp. (C)</th>\r\n                <th>Temp. (F)</th>\r\n                <th>Summary</th>\r\n            </tr>\r\n        </thead>\r\n        ");
-            __builder.OpenElement(12, "tbody");
-            __builder.AddMarkupContent(13, "\r\n");
+            __builder.OpenElement(6, "table");
+            __builder.AddAttribute(7, "class", "table");
+            __builder.AddMarkupContent(8, "<thead><tr><th>Date</th>\r\n                <th>Temp. (C)</th>\r\n                <th>Temp. (F)</th>\r\n                <th>Summary</th></tr></thead>\r\n        ");
+            __builder.OpenElement(9, "tbody");
 #nullable restore
 #line 28 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Learn Blazor\FetchData.razor"
              foreach (var forecast in forecasts)
@@ -139,14 +135,36 @@ else
 #line default
 #line hidden
 #nullable disable
-            __builder.AddContent(14, "                ");
-            __builder.OpenElement(15, "tr");
+            __builder.OpenElement(10, "tr");
+            __builder.OpenElement(11, "td");
+            __builder.AddContent(12, 
+#nullable restore
+#line 31 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Learn Blazor\FetchData.razor"
+                         forecast.Date.ToShortDateString()
+
+#line default
+#line hidden
+#nullable disable
+            );
+            __builder.CloseElement();
+            __builder.AddMarkupContent(13, "\r\n                    ");
+            __builder.OpenElement(14, "td");
+            __builder.AddContent(15, 
+#nullable restore
+#line 32 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Learn Blazor\FetchData.razor"
+                         forecast.TemperatureC
+
+#line default
+#line hidden
+#nullable disable
+            );
+            __builder.CloseElement();
             __builder.AddMarkupContent(16, "\r\n                    ");
             __builder.OpenElement(17, "td");
             __builder.AddContent(18, 
 #nullable restore
-#line 31 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Learn Blazor\FetchData.razor"
-                         forecast.Date.ToShortDateString()
+#line 33 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Learn Blazor\FetchData.razor"
+                         forecast.TemperatureF
 
 #line default
 #line hidden
@@ -157,30 +175,6 @@ else
             __builder.OpenElement(20, "td");
             __builder.AddContent(21, 
 #nullable restore
-#line 32 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Learn Blazor\FetchData.razor"
-                         forecast.TemperatureC
-
-#line default
-#line hidden
-#nullable disable
-            );
-            __builder.CloseElement();
-            __builder.AddMarkupContent(22, "\r\n                    ");
-            __builder.OpenElement(23, "td");
-            __builder.AddContent(24, 
-#nullable restore
-#line 33 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Learn Blazor\FetchData.razor"
-                         forecast.TemperatureF
-
-#line default
-#line hidden
-#nullable disable
-            );
-            __builder.CloseElement();
-            __builder.AddMarkupContent(25, "\r\n                    ");
-            __builder.OpenElement(26, "td");
-            __builder.AddContent(27, 
-#nullable restore
 #line 34 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Learn Blazor\FetchData.razor"
                          forecast.Summary
 
@@ -189,9 +183,7 @@ else
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(28, "\r\n                ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(29, "\r\n");
 #nullable restore
 #line 36 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Learn Blazor\FetchData.razor"
             }
@@ -199,11 +191,8 @@ else
 #line default
 #line hidden
 #nullable disable
-            __builder.AddContent(30, "        ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(31, "\r\n    ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(32, "\r\n");
 #nullable restore
 #line 39 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Learn Blazor\FetchData.razor"
 }

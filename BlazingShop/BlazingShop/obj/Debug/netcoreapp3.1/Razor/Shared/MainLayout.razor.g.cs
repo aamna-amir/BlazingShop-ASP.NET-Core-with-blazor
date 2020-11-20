@@ -86,29 +86,24 @@ using BlazorStrap;
         {
             __builder.OpenElement(0, "div");
             __builder.AddAttribute(1, "class", "sidebar background-container");
-            __builder.AddMarkupContent(2, "\r\n    ");
-            __builder.OpenComponent<BlazingShop.Shared.NavMenu>(3);
+            __builder.OpenComponent<BlazingShop.Shared.NavMenu>(2);
             __builder.CloseComponent();
-            __builder.AddMarkupContent(4, "\r\n");
             __builder.CloseElement();
-            __builder.AddMarkupContent(5, "\r\n\r\n");
+            __builder.AddMarkupContent(3, "\r\n\r\n");
+            __builder.OpenElement(4, "div");
+            __builder.AddAttribute(5, "class", "main");
             __builder.OpenElement(6, "div");
-            __builder.AddAttribute(7, "class", "main");
-            __builder.AddMarkupContent(8, "\r\n    ");
-            __builder.OpenElement(9, "div");
-            __builder.AddAttribute(10, "class", "top-row px-4 auth");
-            __builder.AddAttribute(11, "style", "background-color: #05163D");
-            __builder.AddMarkupContent(12, "\r\n        ");
-            __builder.OpenComponent<BlazingShop.Shared.LoginDisplay>(13);
+            __builder.AddAttribute(7, "class", "top-row px-4 auth");
+            __builder.AddAttribute(8, "style", "background-color: #05163D");
+            __builder.OpenComponent<BlazingShop.Shared.LoginDisplay>(9);
             __builder.CloseComponent();
-            __builder.AddMarkupContent(14, "\r\n        ");
-            __builder.AddMarkupContent(15, "<a href=\"https://docs.microsoft.com/aspnet/\" target=\"_blank\">About</a>\r\n    ");
+            __builder.AddMarkupContent(10, "\r\n        ");
+            __builder.AddMarkupContent(11, "<a href=\"https://docs.microsoft.com/aspnet/\" target=\"_blank\">About</a>");
             __builder.CloseElement();
-            __builder.AddMarkupContent(16, "\r\n\r\n    ");
-            __builder.OpenElement(17, "div");
-            __builder.AddAttribute(18, "class", "content px-4");
-            __builder.AddMarkupContent(19, "\r\n        ");
-            __builder.AddContent(20, 
+            __builder.AddMarkupContent(12, "\r\n\r\n    ");
+            __builder.OpenElement(13, "div");
+            __builder.AddAttribute(14, "class", "content px-4");
+            __builder.AddContent(15, 
 #nullable restore
 #line 14 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Shared\MainLayout.razor"
          Body
@@ -117,9 +112,7 @@ using BlazorStrap;
 #line hidden
 #nullable disable
             );
-            __builder.AddMarkupContent(21, "\r\n    ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(22, "\r\n");
             __builder.CloseElement();
         }
         #pragma warning restore 1998

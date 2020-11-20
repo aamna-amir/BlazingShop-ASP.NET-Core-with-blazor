@@ -100,10 +100,9 @@ using BlazingShop.Services;
         {
             __builder.OpenElement(0, "div");
             __builder.AddAttribute(1, "class", "p-4 border row");
-            __builder.AddMarkupContent(2, "\r\n    ");
-            __builder.OpenComponent<Microsoft.AspNetCore.Components.Forms.EditForm>(3);
-            __builder.AddAttribute(4, "class", "col-8");
-            __builder.AddAttribute(5, "Model", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Object>(
+            __builder.OpenComponent<Microsoft.AspNetCore.Components.Forms.EditForm>(2);
+            __builder.AddAttribute(3, "class", "col-8");
+            __builder.AddAttribute(4, "Model", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Object>(
 #nullable restore
 #line 8 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\AppointmentComponent.razor"
                                     appointment
@@ -112,7 +111,7 @@ using BlazingShop.Services;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(6, "OnValidSubmit", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Forms.EditContext>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Forms.EditContext>(this, 
+            __builder.AddAttribute(5, "OnValidSubmit", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Forms.EditContext>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Forms.EditContext>(this, 
 #nullable restore
 #line 8 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\AppointmentComponent.razor"
                                                                  ValidSubmit
@@ -121,34 +120,27 @@ using BlazingShop.Services;
 #line hidden
 #nullable disable
             )));
-            __builder.AddAttribute(7, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Forms.EditContext>)((context) => (__builder2) => {
-                __builder2.AddMarkupContent(8, "\r\n        ");
+            __builder.AddAttribute(6, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Forms.EditContext>)((context) => (__builder2) => {
+                __builder2.OpenElement(7, "div");
+                __builder2.AddAttribute(8, "class", "form-group row");
                 __builder2.OpenElement(9, "div");
-                __builder2.AddAttribute(10, "class", "form-group row");
-                __builder2.AddMarkupContent(11, "\r\n            ");
-                __builder2.OpenElement(12, "div");
-                __builder2.AddAttribute(13, "class", "col-8 offset-4");
-                __builder2.AddMarkupContent(14, "\r\n                ");
-                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator>(15);
+                __builder2.AddAttribute(10, "class", "col-8 offset-4");
+                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator>(11);
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(16, "\r\n                ");
-                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.ValidationSummary>(17);
+                __builder2.AddMarkupContent(12, "\r\n                ");
+                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.ValidationSummary>(13);
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(18, "\r\n            ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(19, "\r\n        ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(20, "\r\n        ");
-                __builder2.OpenElement(21, "div");
-                __builder2.AddAttribute(22, "class", "form-group row");
-                __builder2.AddMarkupContent(23, "\r\n            ");
-                __builder2.AddMarkupContent(24, "<div class=\"col-4\">\r\n                Name\r\n            </div>\r\n            ");
-                __builder2.OpenElement(25, "div");
-                __builder2.AddAttribute(26, "class", "col-8");
-                __builder2.AddMarkupContent(27, "\r\n                ");
-                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.InputText>(28);
-                __builder2.AddAttribute(29, "class", "form-control");
-                __builder2.AddAttribute(30, "Value", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.String>(
+                __builder2.AddMarkupContent(14, "\r\n        ");
+                __builder2.OpenElement(15, "div");
+                __builder2.AddAttribute(16, "class", "form-group row");
+                __builder2.AddMarkupContent(17, "<div class=\"col-4\">\r\n                Name\r\n            </div>\r\n            ");
+                __builder2.OpenElement(18, "div");
+                __builder2.AddAttribute(19, "class", "col-8");
+                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.InputText>(20);
+                __builder2.AddAttribute(21, "class", "form-control");
+                __builder2.AddAttribute(22, "Value", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.String>(
 #nullable restore
 #line 20 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\AppointmentComponent.razor"
                                          appointment.CustomerName
@@ -157,25 +149,21 @@ using BlazingShop.Services;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(31, "ValueChanged", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.String>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.String>(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => appointment.CustomerName = __value, appointment.CustomerName))));
-                __builder2.AddAttribute(32, "ValueExpression", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Linq.Expressions.Expression<System.Func<System.String>>>(() => appointment.CustomerName));
+                __builder2.AddAttribute(23, "ValueChanged", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.String>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.String>(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => appointment.CustomerName = __value, appointment.CustomerName))));
+                __builder2.AddAttribute(24, "ValueExpression", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Linq.Expressions.Expression<System.Func<System.String>>>(() => appointment.CustomerName));
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(33, "\r\n            ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(34, "\r\n        ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(35, "\r\n        ");
-                __builder2.OpenElement(36, "div");
-                __builder2.AddAttribute(37, "class", "form-group row");
-                __builder2.AddMarkupContent(38, "\r\n            ");
-                __builder2.AddMarkupContent(39, "<div class=\"col-4\">\r\n                Email\r\n            </div>\r\n            ");
-                __builder2.OpenElement(40, "div");
-                __builder2.AddAttribute(41, "class", "col-8");
-                __builder2.AddMarkupContent(42, "\r\n                ");
-                __builder2.OpenElement(43, "input");
-                __builder2.AddAttribute(44, "type", "email");
-                __builder2.AddAttribute(45, "class", "form-control");
-                __builder2.AddAttribute(46, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
+                __builder2.AddMarkupContent(25, "\r\n        ");
+                __builder2.OpenElement(26, "div");
+                __builder2.AddAttribute(27, "class", "form-group row");
+                __builder2.AddMarkupContent(28, "<div class=\"col-4\">\r\n                Email\r\n            </div>\r\n            ");
+                __builder2.OpenElement(29, "div");
+                __builder2.AddAttribute(30, "class", "col-8");
+                __builder2.OpenElement(31, "input");
+                __builder2.AddAttribute(32, "type", "email");
+                __builder2.AddAttribute(33, "class", "form-control");
+                __builder2.AddAttribute(34, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
 #nullable restore
 #line 28 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\AppointmentComponent.razor"
                                             appointment.CustomerEmail
@@ -184,24 +172,20 @@ using BlazingShop.Services;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(47, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => appointment.CustomerEmail = __value, appointment.CustomerEmail));
+                __builder2.AddAttribute(35, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => appointment.CustomerEmail = __value, appointment.CustomerEmail));
                 __builder2.SetUpdatesAttributeName("value");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(48, "\r\n            ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(49, "\r\n        ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(50, "\r\n        ");
-                __builder2.OpenElement(51, "div");
-                __builder2.AddAttribute(52, "class", "form-group row");
-                __builder2.AddMarkupContent(53, "\r\n            ");
-                __builder2.AddMarkupContent(54, "<div class=\"col-4\">\r\n                Phone\r\n            </div>\r\n            ");
-                __builder2.OpenElement(55, "div");
-                __builder2.AddAttribute(56, "class", "col-8");
-                __builder2.AddMarkupContent(57, "\r\n                ");
-                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.InputText>(58);
-                __builder2.AddAttribute(59, "class", "form-control");
-                __builder2.AddAttribute(60, "Value", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.String>(
+                __builder2.AddMarkupContent(36, "\r\n        ");
+                __builder2.OpenElement(37, "div");
+                __builder2.AddAttribute(38, "class", "form-group row");
+                __builder2.AddMarkupContent(39, "<div class=\"col-4\">\r\n                Phone\r\n            </div>\r\n            ");
+                __builder2.OpenElement(40, "div");
+                __builder2.AddAttribute(41, "class", "col-8");
+                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.InputText>(42);
+                __builder2.AddAttribute(43, "class", "form-control");
+                __builder2.AddAttribute(44, "Value", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.String>(
 #nullable restore
 #line 36 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\AppointmentComponent.razor"
                                          appointment.CustomerPhone
@@ -210,22 +194,18 @@ using BlazingShop.Services;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(61, "ValueChanged", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.String>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.String>(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => appointment.CustomerPhone = __value, appointment.CustomerPhone))));
-                __builder2.AddAttribute(62, "ValueExpression", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Linq.Expressions.Expression<System.Func<System.String>>>(() => appointment.CustomerPhone));
+                __builder2.AddAttribute(45, "ValueChanged", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.String>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.String>(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => appointment.CustomerPhone = __value, appointment.CustomerPhone))));
+                __builder2.AddAttribute(46, "ValueExpression", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Linq.Expressions.Expression<System.Func<System.String>>>(() => appointment.CustomerPhone));
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(63, "\r\n            ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(64, "\r\n        ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(65, "\r\n        ");
-                __builder2.OpenElement(66, "div");
-                __builder2.AddAttribute(67, "class", "form-group row");
-                __builder2.AddMarkupContent(68, "\r\n            ");
-                __builder2.AddMarkupContent(69, "<div class=\"col-4\">\r\n                Date\r\n            </div>\r\n            ");
-                __builder2.OpenElement(70, "div");
-                __builder2.AddAttribute(71, "class", "col-8");
-                __builder2.AddMarkupContent(72, "\r\n                ");
-                __Blazor.BlazingShop.Pages.Components.AppointmentComponent.TypeInference.CreateInputDate_0(__builder2, 73, 74, "form-control", 75, 
+                __builder2.AddMarkupContent(47, "\r\n        ");
+                __builder2.OpenElement(48, "div");
+                __builder2.AddAttribute(49, "class", "form-group row");
+                __builder2.AddMarkupContent(50, "<div class=\"col-4\">\r\n                Date\r\n            </div>\r\n            ");
+                __builder2.OpenElement(51, "div");
+                __builder2.AddAttribute(52, "class", "col-8");
+                __Blazor.BlazingShop.Pages.Components.AppointmentComponent.TypeInference.CreateInputDate_0(__builder2, 53, 54, "form-control", 55, 
 #nullable restore
 #line 44 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\AppointmentComponent.razor"
                                          appointment.AppointmentDate
@@ -233,20 +213,16 @@ using BlazingShop.Services;
 #line default
 #line hidden
 #nullable disable
-                , 76, Microsoft.AspNetCore.Components.EventCallback.Factory.Create(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => appointment.AppointmentDate = __value, appointment.AppointmentDate)), 77, () => appointment.AppointmentDate);
-                __builder2.AddMarkupContent(78, "\r\n            ");
+                , 56, Microsoft.AspNetCore.Components.EventCallback.Factory.Create(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => appointment.AppointmentDate = __value, appointment.AppointmentDate)), 57, () => appointment.AppointmentDate);
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(79, "\r\n        ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(80, "\r\n        ");
-                __builder2.OpenElement(81, "div");
-                __builder2.AddAttribute(82, "class", "form-group row");
-                __builder2.AddMarkupContent(83, "\r\n            ");
-                __builder2.OpenElement(84, "div");
-                __builder2.AddAttribute(85, "class", "col-4 offset-4");
-                __builder2.AddMarkupContent(86, "\r\n                ");
-                __builder2.OpenElement(87, "button");
-                __builder2.AddAttribute(88, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+                __builder2.AddMarkupContent(58, "\r\n        ");
+                __builder2.OpenElement(59, "div");
+                __builder2.AddAttribute(60, "class", "form-group row");
+                __builder2.OpenElement(61, "div");
+                __builder2.AddAttribute(62, "class", "col-4 offset-4");
+                __builder2.OpenElement(63, "button");
+                __builder2.AddAttribute(64, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 49 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\AppointmentComponent.razor"
                                   OnClickShowDetails
@@ -255,22 +231,19 @@ using BlazingShop.Services;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(89, "class", "btn btn-success form-control");
-                __builder2.AddMarkupContent(90, "\r\n                    Back to Details\r\n                ");
+                __builder2.AddAttribute(65, "class", "btn btn-success form-control");
+                __builder2.AddMarkupContent(66, "\r\n                    Back to Details\r\n                ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(91, "\r\n            ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(92, "\r\n            ");
-                __builder2.AddMarkupContent(93, "<div class=\"col-4\">\r\n                <button class=\"btn btn-primary form-control\">\r\n                    Book Now!\r\n                </button>\r\n            </div>\r\n        ");
+                __builder2.AddMarkupContent(67, "\r\n            ");
+                __builder2.AddMarkupContent(68, "<div class=\"col-4\"><button class=\"btn btn-primary form-control\">\r\n                    Book Now!\r\n                </button></div>");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(94, "\r\n    ");
             }
             ));
             __builder.CloseComponent();
-            __builder.AddMarkupContent(95, "\r\n\r\n    ");
-            __builder.OpenElement(96, "div");
-            __builder.AddAttribute(97, "class", "offset-1 col-3");
-            __builder.AddMarkupContent(98, "\r\n");
+            __builder.AddMarkupContent(69, "\r\n\r\n    ");
+            __builder.OpenElement(70, "div");
+            __builder.AddAttribute(71, "class", "offset-1 col-3");
 #nullable restore
 #line 62 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\AppointmentComponent.razor"
          if (appointment.Product != null)
@@ -279,9 +252,8 @@ using BlazingShop.Services;
 #line default
 #line hidden
 #nullable disable
-            __builder.AddContent(99, "            ");
-            __builder.OpenElement(100, "img");
-            __builder.AddAttribute(101, "src", 
+            __builder.OpenElement(72, "img");
+            __builder.AddAttribute(73, "src", 
 #nullable restore
 #line 64 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\AppointmentComponent.razor"
                        convertImageToDisplay(appointment.Product.Image)
@@ -290,10 +262,9 @@ using BlazingShop.Services;
 #line hidden
 #nullable disable
             );
-            __builder.AddAttribute(102, "width", "200px");
-            __builder.AddAttribute(103, "style", "border-radius: 5px; border: 1px solid #bbb9b9");
+            __builder.AddAttribute(74, "width", "200px");
+            __builder.AddAttribute(75, "style", "border-radius: 5px; border: 1px solid #bbb9b9");
             __builder.CloseElement();
-            __builder.AddMarkupContent(104, "\r\n");
 #nullable restore
 #line 66 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\Components\AppointmentComponent.razor"
         }
@@ -301,9 +272,7 @@ using BlazingShop.Services;
 #line default
 #line hidden
 #nullable disable
-            __builder.AddContent(105, "    ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(106, "\r\n");
             __builder.CloseElement();
         }
         #pragma warning restore 1998

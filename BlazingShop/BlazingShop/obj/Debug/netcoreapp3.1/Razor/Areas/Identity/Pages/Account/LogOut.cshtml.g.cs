@@ -13,6 +13,27 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
+#line 2 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Areas\Identity\Pages\_ViewImports.cshtml"
+using BlazingShop.Areas.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Areas\Identity\Pages\_ViewImports.cshtml"
+using BlazingShop.Areas.Identity.Pages;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 1 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Areas\Identity\Pages\Account\_ViewImports.cshtml"
+using BlazingShop.Areas.Identity.Pages.Account;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Areas\Identity\Pages\Account\LogOut.cshtml"
 using Microsoft.AspNetCore.Identity;
 
@@ -27,6 +48,8 @@ using Microsoft.AspNetCore.Identity;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"580e87faa4f26b07c32280b4a4a19c3f61b16786", @"/Areas/Identity/Pages/Account/LogOut.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"70e1827b399219e5345c29e3a430690d68d663bb", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"789c2a4ea51bf2254379f696a27913c62566dec1", @"/Areas/Identity/Pages/Account/_ViewImports.cshtml")]
     public class Areas_Identity_Pages_Account_LogOut : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         #pragma warning disable 1998

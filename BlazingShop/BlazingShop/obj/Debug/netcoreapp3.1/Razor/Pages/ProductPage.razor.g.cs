@@ -115,7 +115,6 @@ using System.IO;
         {
             __builder.OpenComponent<Microsoft.AspNetCore.Components.Authorization.AuthorizeView>(0);
             __builder.AddAttribute(1, "Authorized", (Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>)((Auth) => (__builder2) => {
-                __builder2.AddMarkupContent(2, "\r\n");
 #nullable restore
 #line 10 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
          if (products == null)
@@ -124,8 +123,7 @@ using System.IO;
 #line default
 #line hidden
 #nullable disable
-                __builder2.AddContent(3, "            ");
-                __builder2.AddMarkupContent(4, "<p><em>Loading....</em></p>\r\n");
+                __builder2.AddMarkupContent(2, "<p><em>Loading....</em></p>");
 #nullable restore
 #line 13 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
         }
@@ -135,20 +133,16 @@ using System.IO;
 #line default
 #line hidden
 #nullable disable
-                __builder2.AddContent(5, "            ");
-                __builder2.OpenElement(6, "div");
-                __builder2.AddAttribute(7, "class", "container border p-3");
-                __builder2.AddMarkupContent(8, "\r\n                ");
-                __builder2.OpenElement(9, "div");
-                __builder2.AddAttribute(10, "class", "row");
-                __builder2.AddMarkupContent(11, "\r\n                    ");
-                __builder2.AddMarkupContent(12, "<div class=\"col-5\">\r\n                        <h1 class=\"text-info\">Product List</h1>\r\n                    </div>\r\n                    ");
-                __builder2.OpenElement(13, "div");
-                __builder2.AddAttribute(14, "class", "col-3");
-                __builder2.AddMarkupContent(15, "\r\n                        ");
-                __builder2.OpenElement(16, "button");
-                __builder2.AddAttribute(17, "class", "btn btn-info form-control");
-                __builder2.AddAttribute(18, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+                __builder2.OpenElement(3, "div");
+                __builder2.AddAttribute(4, "class", "container border p-3");
+                __builder2.OpenElement(5, "div");
+                __builder2.AddAttribute(6, "class", "row");
+                __builder2.AddMarkupContent(7, "<div class=\"col-5\"><h1 class=\"text-info\">Product List</h1></div>\r\n                    ");
+                __builder2.OpenElement(8, "div");
+                __builder2.AddAttribute(9, "class", "col-3");
+                __builder2.OpenElement(10, "button");
+                __builder2.AddAttribute(11, "class", "btn btn-info form-control");
+                __builder2.AddAttribute(12, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 22 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                                             AddNewProduct
@@ -157,32 +151,23 @@ using System.IO;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddContent(19, "Add New Product");
+                __builder2.AddContent(13, "Add New Product");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(20, "\r\n                    ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(21, "\r\n                ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(22, "\r\n\r\n                ");
-                __builder2.OpenElement(23, "div");
-                __builder2.AddAttribute(24, "class", "row pt-4");
-                __builder2.AddMarkupContent(25, "\r\n                    ");
-                __builder2.OpenElement(26, "table");
-                __builder2.AddAttribute(27, "class", "table table-striped");
-                __builder2.AddMarkupContent(28, "\r\n                        ");
-                __builder2.AddMarkupContent(29, @"<thead>
-                            <tr>
-                                <th>Product Name</th>
+                __builder2.AddMarkupContent(14, "\r\n\r\n                ");
+                __builder2.OpenElement(15, "div");
+                __builder2.AddAttribute(16, "class", "row pt-4");
+                __builder2.OpenElement(17, "table");
+                __builder2.AddAttribute(18, "class", "table table-striped");
+                __builder2.AddMarkupContent(19, @"<thead><tr><th>Product Name</th>
                                 <th>Price</th>
                                 <th>Shade Color</th>
                                 <th>Category</th>
                                 <th>Product Size</th>
-                                <th></th>
-                            </tr>
-                        </thead>
+                                <th></th></tr></thead>
                         ");
-                __builder2.OpenElement(30, "tbody");
-                __builder2.AddMarkupContent(31, "\r\n");
+                __builder2.OpenElement(20, "tbody");
 #nullable restore
 #line 39 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                              foreach (var obj in products)
@@ -191,11 +176,9 @@ using System.IO;
 #line default
 #line hidden
 #nullable disable
-                __builder2.AddContent(32, "                                ");
-                __builder2.OpenElement(33, "tr");
-                __builder2.AddMarkupContent(34, "\r\n                                    ");
-                __builder2.OpenElement(35, "td");
-                __builder2.AddContent(36, 
+                __builder2.OpenElement(21, "tr");
+                __builder2.OpenElement(22, "td");
+                __builder2.AddContent(23, 
 #nullable restore
 #line 42 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                          obj.Name
@@ -205,9 +188,9 @@ using System.IO;
 #nullable disable
                 );
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(37, "\r\n                                    ");
-                __builder2.OpenElement(38, "td");
-                __builder2.AddContent(39, 
+                __builder2.AddMarkupContent(24, "\r\n                                    ");
+                __builder2.OpenElement(25, "td");
+                __builder2.AddContent(26, 
 #nullable restore
 #line 43 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                          obj.Price
@@ -217,9 +200,9 @@ using System.IO;
 #nullable disable
                 );
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(40, "\r\n                                    ");
-                __builder2.OpenElement(41, "td");
-                __builder2.AddContent(42, 
+                __builder2.AddMarkupContent(27, "\r\n                                    ");
+                __builder2.OpenElement(28, "td");
+                __builder2.AddContent(29, 
 #nullable restore
 #line 44 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                          obj.ShadeColor
@@ -229,9 +212,9 @@ using System.IO;
 #nullable disable
                 );
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(43, "\r\n                                    ");
-                __builder2.OpenElement(44, "td");
-                __builder2.AddContent(45, 
+                __builder2.AddMarkupContent(30, "\r\n                                    ");
+                __builder2.OpenElement(31, "td");
+                __builder2.AddContent(32, 
 #nullable restore
 #line 45 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                          obj.Category.Name
@@ -241,9 +224,9 @@ using System.IO;
 #nullable disable
                 );
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(46, "\r\n                                    ");
-                __builder2.OpenElement(47, "td");
-                __builder2.AddContent(48, 
+                __builder2.AddMarkupContent(33, "\r\n                                    ");
+                __builder2.OpenElement(34, "td");
+                __builder2.AddContent(35, 
 #nullable restore
 #line 46 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                          obj.ProductSize.Size
@@ -253,13 +236,12 @@ using System.IO;
 #nullable disable
                 );
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(49, "\r\n                                    ");
-                __builder2.OpenElement(50, "td");
-                __builder2.AddMarkupContent(51, "\r\n                                        ");
-                __builder2.OpenElement(52, "button");
-                __builder2.AddAttribute(53, "class", "btn btn-primary");
-                __builder2.AddAttribute(54, "style", "width:150px");
-                __builder2.AddAttribute(55, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+                __builder2.AddMarkupContent(36, "\r\n                                    ");
+                __builder2.OpenElement(37, "td");
+                __builder2.OpenElement(38, "button");
+                __builder2.AddAttribute(39, "class", "btn btn-primary");
+                __builder2.AddAttribute(40, "style", "width:150px");
+                __builder2.AddAttribute(41, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 48 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                                                                       (()=>EditProduct(obj))
@@ -268,13 +250,10 @@ using System.IO;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddMarkupContent(56, "\r\n                                            Edit\r\n                                        ");
+                __builder2.AddMarkupContent(42, "\r\n                                            Edit\r\n                                        ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(57, "\r\n                                    ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(58, "\r\n                                ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(59, "\r\n");
 #nullable restore
 #line 53 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                             }
@@ -282,15 +261,10 @@ using System.IO;
 #line default
 #line hidden
 #nullable disable
-                __builder2.AddContent(60, "                        ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(61, "\r\n                    ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(62, "\r\n                ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(63, "\r\n            ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(64, "\r\n");
 #nullable restore
 #line 58 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
         }
@@ -298,16 +272,13 @@ using System.IO;
 #line default
 #line hidden
 #nullable disable
-                __builder2.AddContent(65, "    ");
             }
             ));
-            __builder.AddAttribute(66, "NotAuthorized", (Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>)((context) => (__builder2) => {
-                __builder2.AddMarkupContent(67, "\r\n        ");
-                __builder2.AddMarkupContent(68, "<p>You are not signed in.</p>\r\n    ");
+            __builder.AddAttribute(43, "NotAuthorized", (Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>)((context) => (__builder2) => {
+                __builder2.AddMarkupContent(44, "<p>You are not signed in.</p>");
             }
             ));
             __builder.CloseComponent();
-            __builder.AddMarkupContent(69, "\r\n");
 #nullable restore
 #line 64 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
  if (ShowPopup)
@@ -316,15 +287,13 @@ using System.IO;
 #line default
 #line hidden
 #nullable disable
-            __builder.AddContent(70, "    ");
-            __builder.OpenElement(71, "div");
-            __builder.AddAttribute(72, "class", "modal");
-            __builder.AddAttribute(73, "tabindex", "-1");
-            __builder.AddAttribute(74, "style", "display:block");
-            __builder.AddAttribute(75, "role", "dialog");
-            __builder.AddMarkupContent(76, "\r\n        ");
-            __builder.OpenComponent<Microsoft.AspNetCore.Components.Forms.EditForm>(77);
-            __builder.AddAttribute(78, "Model", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Object>(
+            __builder.OpenElement(45, "div");
+            __builder.AddAttribute(46, "class", "modal");
+            __builder.AddAttribute(47, "tabindex", "-1");
+            __builder.AddAttribute(48, "style", "display:block");
+            __builder.AddAttribute(49, "role", "dialog");
+            __builder.OpenComponent<Microsoft.AspNetCore.Components.Forms.EditForm>(50);
+            __builder.AddAttribute(51, "Model", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Object>(
 #nullable restore
 #line 67 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                           objProduct
@@ -333,7 +302,7 @@ using System.IO;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(79, "OnValidSubmit", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Forms.EditContext>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Forms.EditContext>(this, 
+            __builder.AddAttribute(52, "OnValidSubmit", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Forms.EditContext>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Forms.EditContext>(this, 
 #nullable restore
 #line 67 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                       ValidSubmit
@@ -342,20 +311,16 @@ using System.IO;
 #line hidden
 #nullable disable
             )));
-            __builder.AddAttribute(80, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Forms.EditContext>)((context) => (__builder2) => {
-                __builder2.AddMarkupContent(81, "\r\n            ");
-                __builder2.OpenElement(82, "div");
-                __builder2.AddAttribute(83, "class", "modal-dialog");
-                __builder2.AddMarkupContent(84, "\r\n                ");
-                __builder2.OpenElement(85, "div");
-                __builder2.AddAttribute(86, "class", "modal-content");
-                __builder2.AddMarkupContent(87, "\r\n                    ");
-                __builder2.OpenElement(88, "div");
-                __builder2.AddAttribute(89, "class", "modal-header");
-                __builder2.AddMarkupContent(90, "\r\n                        ");
-                __builder2.OpenElement(91, "h3");
-                __builder2.AddAttribute(92, "class", "text-info");
-                __builder2.AddContent(93, 
+            __builder.AddAttribute(53, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Forms.EditContext>)((context) => (__builder2) => {
+                __builder2.OpenElement(54, "div");
+                __builder2.AddAttribute(55, "class", "modal-dialog");
+                __builder2.OpenElement(56, "div");
+                __builder2.AddAttribute(57, "class", "modal-content");
+                __builder2.OpenElement(58, "div");
+                __builder2.AddAttribute(59, "class", "modal-header");
+                __builder2.OpenElement(60, "h3");
+                __builder2.AddAttribute(61, "class", "text-info");
+                __builder2.AddContent(62, 
 #nullable restore
 #line 71 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                 objProduct.Id != 0 ? "Update" : "Create" 
@@ -364,13 +329,13 @@ using System.IO;
 #line hidden
 #nullable disable
                 );
-                __builder2.AddContent(94, " Product");
+                __builder2.AddContent(63, " Product");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(95, "\r\n                        ");
-                __builder2.OpenElement(96, "button");
-                __builder2.AddAttribute(97, "type", "button");
-                __builder2.AddAttribute(98, "class", "close");
-                __builder2.AddAttribute(99, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+                __builder2.AddMarkupContent(64, "\r\n                        ");
+                __builder2.OpenElement(65, "button");
+                __builder2.AddAttribute(66, "type", "button");
+                __builder2.AddAttribute(67, "class", "close");
+                __builder2.AddAttribute(68, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 72 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                                       ClosePopup
@@ -379,33 +344,26 @@ using System.IO;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddMarkupContent(100, "\r\n                            ");
-                __builder2.AddMarkupContent(101, "<span aria-hidden=\"true\">X</span>\r\n                        ");
+                __builder2.AddMarkupContent(69, "<span aria-hidden=\"true\">X</span>");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(102, "\r\n                    ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(103, "\r\n                    ");
-                __builder2.OpenElement(104, "div");
-                __builder2.AddAttribute(105, "class", "modal-body");
-                __builder2.AddMarkupContent(106, "\r\n                        ");
-                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator>(107);
+                __builder2.AddMarkupContent(70, "\r\n                    ");
+                __builder2.OpenElement(71, "div");
+                __builder2.AddAttribute(72, "class", "modal-body");
+                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator>(73);
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(108, "\r\n                        ");
-                __builder2.OpenElement(109, "div");
-                __builder2.AddAttribute(110, "class", "row");
-                __builder2.AddMarkupContent(111, "\r\n                            ");
-                __builder2.OpenElement(112, "div");
-                __builder2.AddAttribute(113, "class", "col-9");
-                __builder2.AddMarkupContent(114, "\r\n                                ");
-                __builder2.OpenElement(115, "div");
-                __builder2.AddAttribute(116, "class", "row py-2");
-                __builder2.AddMarkupContent(117, "\r\n                                    ");
-                __builder2.AddMarkupContent(118, "<div class=\"col-4\">\r\n                                        Category Name\r\n                                    </div>\r\n                                    ");
-                __builder2.OpenElement(119, "div");
-                __builder2.AddAttribute(120, "class", "col-8");
-                __builder2.AddMarkupContent(121, "\r\n                                        ");
-                __builder2.OpenElement(122, "select");
-                __builder2.AddAttribute(123, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.ChangeEventArgs>(this, 
+                __builder2.AddMarkupContent(74, "\r\n                        ");
+                __builder2.OpenElement(75, "div");
+                __builder2.AddAttribute(76, "class", "row");
+                __builder2.OpenElement(77, "div");
+                __builder2.AddAttribute(78, "class", "col-9");
+                __builder2.OpenElement(79, "div");
+                __builder2.AddAttribute(80, "class", "row py-2");
+                __builder2.AddMarkupContent(81, "<div class=\"col-4\">\r\n                                        Category Name\r\n                                    </div>\r\n                                    ");
+                __builder2.OpenElement(82, "div");
+                __builder2.AddAttribute(83, "class", "col-8");
+                __builder2.OpenElement(84, "select");
+                __builder2.AddAttribute(85, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.ChangeEventArgs>(this, 
 #nullable restore
 #line 85 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                            CategorySelectionChanged
@@ -414,8 +372,7 @@ using System.IO;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(124, "class", "form-control");
-                __builder2.AddMarkupContent(125, "\r\n");
+                __builder2.AddAttribute(86, "class", "form-control");
 #nullable restore
 #line 86 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                              foreach (var categoryInd in categories)
@@ -424,9 +381,8 @@ using System.IO;
 #line default
 #line hidden
 #nullable disable
-                __builder2.AddContent(126, "                                                ");
-                __builder2.OpenElement(127, "option");
-                __builder2.AddAttribute(128, "value", 
+                __builder2.OpenElement(87, "option");
+                __builder2.AddAttribute(88, "value", 
 #nullable restore
 #line 88 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                                 categoryInd.Id
@@ -435,7 +391,7 @@ using System.IO;
 #line hidden
 #nullable disable
                 );
-                __builder2.AddAttribute(129, "selected", 
+                __builder2.AddAttribute(89, "selected", 
 #nullable restore
 #line 88 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                                                             categoryInd.Id==objProduct.CategoryId? true : false
@@ -444,7 +400,7 @@ using System.IO;
 #line hidden
 #nullable disable
                 );
-                __builder2.AddContent(130, 
+                __builder2.AddContent(90, 
 #nullable restore
 #line 88 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                                                                                                                    categoryInd.Name
@@ -454,7 +410,6 @@ using System.IO;
 #nullable disable
                 );
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(131, "\r\n");
 #nullable restore
 #line 89 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                             }
@@ -462,23 +417,18 @@ using System.IO;
 #line default
 #line hidden
 #nullable disable
-                __builder2.AddContent(132, "                                        ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(133, "\r\n                                    ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(134, "\r\n                                ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(135, "\r\n                                ");
-                __builder2.OpenElement(136, "div");
-                __builder2.AddAttribute(137, "class", "row py-2");
-                __builder2.AddMarkupContent(138, "\r\n                                    ");
-                __builder2.AddMarkupContent(139, "<div class=\"col-4\">\r\n                                        Product Name\r\n                                    </div>\r\n                                    ");
-                __builder2.OpenElement(140, "div");
-                __builder2.AddAttribute(141, "class", "col-8");
-                __builder2.AddMarkupContent(142, "\r\n                                        ");
-                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.InputText>(143);
-                __builder2.AddAttribute(144, "class", "form-control");
-                __builder2.AddAttribute(145, "Value", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.String>(
+                __builder2.AddMarkupContent(91, "\r\n                                ");
+                __builder2.OpenElement(92, "div");
+                __builder2.AddAttribute(93, "class", "row py-2");
+                __builder2.AddMarkupContent(94, "<div class=\"col-4\">\r\n                                        Product Name\r\n                                    </div>\r\n                                    ");
+                __builder2.OpenElement(95, "div");
+                __builder2.AddAttribute(96, "class", "col-8");
+                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.InputText>(97);
+                __builder2.AddAttribute(98, "class", "form-control");
+                __builder2.AddAttribute(99, "Value", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.String>(
 #nullable restore
 #line 98 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                                                      objProduct.Name
@@ -487,11 +437,11 @@ using System.IO;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(146, "ValueChanged", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.String>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.String>(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => objProduct.Name = __value, objProduct.Name))));
-                __builder2.AddAttribute(147, "ValueExpression", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Linq.Expressions.Expression<System.Func<System.String>>>(() => objProduct.Name));
+                __builder2.AddAttribute(100, "ValueChanged", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.String>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.String>(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => objProduct.Name = __value, objProduct.Name))));
+                __builder2.AddAttribute(101, "ValueExpression", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Linq.Expressions.Expression<System.Func<System.String>>>(() => objProduct.Name));
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(148, "\r\n                                        ");
-                __Blazor.BlazingShop.Pages.ProductPage.TypeInference.CreateValidationMessage_0(__builder2, 149, 150, 
+                __builder2.AddMarkupContent(102, "\r\n                                        ");
+                __Blazor.BlazingShop.Pages.ProductPage.TypeInference.CreateValidationMessage_0(__builder2, 103, 104, 
 #nullable restore
 #line 99 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                                   ()=>objProduct.Name
@@ -500,22 +450,18 @@ using System.IO;
 #line hidden
 #nullable disable
                 );
-                __builder2.AddMarkupContent(151, "\r\n                                    ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(152, "\r\n                                ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(153, "\r\n                                ");
-                __builder2.OpenElement(154, "div");
-                __builder2.AddAttribute(155, "class", "row py-2");
-                __builder2.AddMarkupContent(156, "\r\n                                    ");
-                __builder2.AddMarkupContent(157, "<div class=\"col-4\">\r\n                                        Price\r\n                                    </div>\r\n                                    ");
-                __builder2.OpenElement(158, "div");
-                __builder2.AddAttribute(159, "class", "col-8");
-                __builder2.AddMarkupContent(160, "\r\n                                        ");
-                __builder2.OpenElement(161, "input");
-                __builder2.AddAttribute(162, "class", "form-control");
-                __builder2.AddAttribute(163, "type", "text");
-                __builder2.AddAttribute(164, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
+                __builder2.AddMarkupContent(105, "\r\n                                ");
+                __builder2.OpenElement(106, "div");
+                __builder2.AddAttribute(107, "class", "row py-2");
+                __builder2.AddMarkupContent(108, "<div class=\"col-4\">\r\n                                        Price\r\n                                    </div>\r\n                                    ");
+                __builder2.OpenElement(109, "div");
+                __builder2.AddAttribute(110, "class", "col-8");
+                __builder2.OpenElement(111, "input");
+                __builder2.AddAttribute(112, "class", "form-control");
+                __builder2.AddAttribute(113, "type", "text");
+                __builder2.AddAttribute(114, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
 #nullable restore
 #line 107 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                                                        objProduct.Price
@@ -524,11 +470,11 @@ using System.IO;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(165, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => objProduct.Price = __value, objProduct.Price));
+                __builder2.AddAttribute(115, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => objProduct.Price = __value, objProduct.Price));
                 __builder2.SetUpdatesAttributeName("value");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(166, "\r\n                                        ");
-                __Blazor.BlazingShop.Pages.ProductPage.TypeInference.CreateValidationMessage_1(__builder2, 167, 168, 
+                __builder2.AddMarkupContent(116, "\r\n                                        ");
+                __Blazor.BlazingShop.Pages.ProductPage.TypeInference.CreateValidationMessage_1(__builder2, 117, 118, 
 #nullable restore
 #line 108 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                                   ()=>objProduct.Price
@@ -537,22 +483,18 @@ using System.IO;
 #line hidden
 #nullable disable
                 );
-                __builder2.AddMarkupContent(169, "\r\n                                    ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(170, "\r\n                                ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(171, "\r\n                                ");
-                __builder2.OpenElement(172, "div");
-                __builder2.AddAttribute(173, "class", "row py-2");
-                __builder2.AddMarkupContent(174, "\r\n                                    ");
-                __builder2.AddMarkupContent(175, "<div class=\"col-4\">\r\n                                        Shade Color\r\n                                    </div>\r\n                                    ");
-                __builder2.OpenElement(176, "div");
-                __builder2.AddAttribute(177, "class", "col-8");
-                __builder2.AddMarkupContent(178, "\r\n                                        ");
-                __builder2.OpenElement(179, "input");
-                __builder2.AddAttribute(180, "class", "form-control");
-                __builder2.AddAttribute(181, "type", "text");
-                __builder2.AddAttribute(182, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
+                __builder2.AddMarkupContent(119, "\r\n                                ");
+                __builder2.OpenElement(120, "div");
+                __builder2.AddAttribute(121, "class", "row py-2");
+                __builder2.AddMarkupContent(122, "<div class=\"col-4\">\r\n                                        Shade Color\r\n                                    </div>\r\n                                    ");
+                __builder2.OpenElement(123, "div");
+                __builder2.AddAttribute(124, "class", "col-8");
+                __builder2.OpenElement(125, "input");
+                __builder2.AddAttribute(126, "class", "form-control");
+                __builder2.AddAttribute(127, "type", "text");
+                __builder2.AddAttribute(128, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
 #nullable restore
 #line 116 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                                                        objProduct.ShadeColor
@@ -561,11 +503,11 @@ using System.IO;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(183, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => objProduct.ShadeColor = __value, objProduct.ShadeColor));
+                __builder2.AddAttribute(129, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => objProduct.ShadeColor = __value, objProduct.ShadeColor));
                 __builder2.SetUpdatesAttributeName("value");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(184, "\r\n                                        ");
-                __Blazor.BlazingShop.Pages.ProductPage.TypeInference.CreateValidationMessage_2(__builder2, 185, 186, 
+                __builder2.AddMarkupContent(130, "\r\n                                        ");
+                __Blazor.BlazingShop.Pages.ProductPage.TypeInference.CreateValidationMessage_2(__builder2, 131, 132, 
 #nullable restore
 #line 117 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                                   ()=>objProduct.ShadeColor
@@ -574,20 +516,16 @@ using System.IO;
 #line hidden
 #nullable disable
                 );
-                __builder2.AddMarkupContent(187, "\r\n                                    ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(188, "\r\n                                ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(189, "\r\n                                ");
-                __builder2.OpenElement(190, "div");
-                __builder2.AddAttribute(191, "class", "row py-2");
-                __builder2.AddMarkupContent(192, "\r\n                                    ");
-                __builder2.AddMarkupContent(193, "<div class=\"col-4\">\r\n                                        Product Size\r\n                                    </div>\r\n                                    ");
-                __builder2.OpenElement(194, "div");
-                __builder2.AddAttribute(195, "class", "col-8");
-                __builder2.AddMarkupContent(196, "\r\n                                        ");
-                __builder2.OpenElement(197, "select");
-                __builder2.AddAttribute(198, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.ChangeEventArgs>(this, 
+                __builder2.AddMarkupContent(133, "\r\n                                ");
+                __builder2.OpenElement(134, "div");
+                __builder2.AddAttribute(135, "class", "row py-2");
+                __builder2.AddMarkupContent(136, "<div class=\"col-4\">\r\n                                        Product Size\r\n                                    </div>\r\n                                    ");
+                __builder2.OpenElement(137, "div");
+                __builder2.AddAttribute(138, "class", "col-8");
+                __builder2.OpenElement(139, "select");
+                __builder2.AddAttribute(140, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.ChangeEventArgs>(this, 
 #nullable restore
 #line 125 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                            ProductSizeSelectionChanged
@@ -596,8 +534,7 @@ using System.IO;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(199, "class", "form-control");
-                __builder2.AddMarkupContent(200, "\r\n");
+                __builder2.AddAttribute(141, "class", "form-control");
 #nullable restore
 #line 126 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                              foreach (var productSizeInd in productsizes)
@@ -606,9 +543,8 @@ using System.IO;
 #line default
 #line hidden
 #nullable disable
-                __builder2.AddContent(201, "                                                ");
-                __builder2.OpenElement(202, "option");
-                __builder2.AddAttribute(203, "value", 
+                __builder2.OpenElement(142, "option");
+                __builder2.AddAttribute(143, "value", 
 #nullable restore
 #line 128 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                                 productSizeInd.Id
@@ -617,7 +553,7 @@ using System.IO;
 #line hidden
 #nullable disable
                 );
-                __builder2.AddAttribute(204, "selected", 
+                __builder2.AddAttribute(144, "selected", 
 #nullable restore
 #line 128 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                                                                productSizeInd.Id==objProduct.ProductSizeId? true : false
@@ -626,7 +562,7 @@ using System.IO;
 #line hidden
 #nullable disable
                 );
-                __builder2.AddContent(205, 
+                __builder2.AddContent(145, 
 #nullable restore
 #line 128 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                                                                                                                             productSizeInd.Size
@@ -636,7 +572,6 @@ using System.IO;
 #nullable disable
                 );
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(206, "\r\n");
 #nullable restore
 #line 129 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                             }
@@ -644,22 +579,17 @@ using System.IO;
 #line default
 #line hidden
 #nullable disable
-                __builder2.AddContent(207, "                                        ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(208, "\r\n                                    ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(209, "\r\n                                ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(210, "\r\n                                ");
-                __builder2.OpenElement(211, "div");
-                __builder2.AddAttribute(212, "class", "row py-2");
-                __builder2.AddMarkupContent(213, "\r\n                                    ");
-                __builder2.AddMarkupContent(214, "<div class=\"col-4\">\r\n                                        Image\r\n                                    </div>\r\n                                    ");
-                __builder2.OpenElement(215, "div");
-                __builder2.AddAttribute(216, "class", "col-8");
-                __builder2.AddMarkupContent(217, "\r\n                                        ");
-                __builder2.OpenComponent<BlazorInputFile.InputFile>(218);
-                __builder2.AddAttribute(219, "OnChange", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<BlazorInputFile.IFileListEntry[]>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<BlazorInputFile.IFileListEntry[]>(this, 
+                __builder2.AddMarkupContent(146, "\r\n                                ");
+                __builder2.OpenElement(147, "div");
+                __builder2.AddAttribute(148, "class", "row py-2");
+                __builder2.AddMarkupContent(149, "<div class=\"col-4\">\r\n                                        Image\r\n                                    </div>\r\n                                    ");
+                __builder2.OpenElement(150, "div");
+                __builder2.AddAttribute(151, "class", "col-8");
+                __builder2.OpenComponent<BlazorInputFile.InputFile>(152);
+                __builder2.AddAttribute(153, "OnChange", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<BlazorInputFile.IFileListEntry[]>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<BlazorInputFile.IFileListEntry[]>(this, 
 #nullable restore
 #line 138 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                              HandleSelection
@@ -669,15 +599,12 @@ using System.IO;
 #nullable disable
                 )));
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(220, "\r\n                                    ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(221, "\r\n                                ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(222, "\r\n                                ");
-                __builder2.OpenElement(223, "div");
-                __builder2.AddAttribute(224, "class", "row py-2");
-                __builder2.AddMarkupContent(225, "\r\n                                    ");
-                __builder2.AddMarkupContent(226, "<div class=\"col-4 offset-4\">\r\n                                        <button class=\"btn btn-outline-primary\" type=\"submit\">Submit</button>\r\n                                    </div>\r\n");
+                __builder2.AddMarkupContent(154, "\r\n                                ");
+                __builder2.OpenElement(155, "div");
+                __builder2.AddAttribute(156, "class", "row py-2");
+                __builder2.AddMarkupContent(157, "<div class=\"col-4 offset-4\"><button class=\"btn btn-outline-primary\" type=\"submit\">Submit</button></div>");
 #nullable restore
 #line 145 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                      if (objProduct.Id > 0)
@@ -686,14 +613,12 @@ using System.IO;
 #line default
 #line hidden
 #nullable disable
-                __builder2.AddContent(227, "                                        ");
-                __builder2.OpenElement(228, "div");
-                __builder2.AddAttribute(229, "class", "col-4");
-                __builder2.AddMarkupContent(230, "\r\n                                            ");
-                __builder2.OpenElement(231, "button");
-                __builder2.AddAttribute(232, "class", "btn btn-outline-danger");
-                __builder2.AddAttribute(233, "type", "submit");
-                __builder2.AddAttribute(234, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+                __builder2.OpenElement(158, "div");
+                __builder2.AddAttribute(159, "class", "col-4");
+                __builder2.OpenElement(160, "button");
+                __builder2.AddAttribute(161, "class", "btn btn-outline-danger");
+                __builder2.AddAttribute(162, "type", "submit");
+                __builder2.AddAttribute(163, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 148 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                                                                                            DeleteProduct
@@ -702,11 +627,9 @@ using System.IO;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddContent(235, "Delete");
+                __builder2.AddContent(164, "Delete");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(236, "\r\n                                        ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(237, "\r\n");
 #nullable restore
 #line 150 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                     }
@@ -714,16 +637,13 @@ using System.IO;
 #line default
 #line hidden
 #nullable disable
-                __builder2.AddContent(238, "                                ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(239, "\r\n                            ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(240, "\r\n                            ");
-                __builder2.OpenElement(241, "div");
-                __builder2.AddAttribute(242, "class", "col-3");
-                __builder2.AddMarkupContent(243, "\r\n                                ");
-                __builder2.OpenElement(244, "img");
-                __builder2.AddAttribute(245, "src", 
+                __builder2.AddMarkupContent(165, "\r\n                            ");
+                __builder2.OpenElement(166, "div");
+                __builder2.AddAttribute(167, "class", "col-3");
+                __builder2.OpenElement(168, "img");
+                __builder2.AddAttribute(169, "src", 
 #nullable restore
 #line 154 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
                                            convertImageToDisplay(objProduct.Image)
@@ -732,25 +652,17 @@ using System.IO;
 #line hidden
 #nullable disable
                 );
-                __builder2.AddAttribute(246, "width", "100%");
+                __builder2.AddAttribute(170, "width", "100%");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(247, "\r\n                            ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(248, "\r\n                        ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(249, "\r\n                    ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(250, "\r\n                ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(251, "\r\n            ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(252, "\r\n        ");
             }
             ));
             __builder.CloseComponent();
-            __builder.AddMarkupContent(253, "\r\n    ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(254, "\r\n");
 #nullable restore
 #line 162 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductPage.razor"
 }

@@ -101,7 +101,6 @@ using BlazingShop.Services;
         {
             __builder.OpenComponent<Microsoft.AspNetCore.Components.Authorization.AuthorizeView>(0);
             __builder.AddAttribute(1, "Authorized", (Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>)((Auth) => (__builder2) => {
-                __builder2.AddMarkupContent(2, "\r\n\r\n");
 #nullable restore
 #line 10 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductSizePage.razor"
          if (productsizes == null)
@@ -110,8 +109,7 @@ using BlazingShop.Services;
 #line default
 #line hidden
 #nullable disable
-                __builder2.AddContent(3, "            ");
-                __builder2.AddMarkupContent(4, "<p><em>Loading or No size available.</em></p>\r\n");
+                __builder2.AddMarkupContent(2, "<p><em>Loading or No size available.</em></p>");
 #nullable restore
 #line 13 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductSizePage.razor"
         }
@@ -121,20 +119,16 @@ using BlazingShop.Services;
 #line default
 #line hidden
 #nullable disable
-                __builder2.AddContent(5, "            ");
-                __builder2.OpenElement(6, "div");
-                __builder2.AddAttribute(7, "class", "container border p-3");
-                __builder2.AddMarkupContent(8, "\r\n                ");
-                __builder2.OpenElement(9, "div");
-                __builder2.AddAttribute(10, "class", "row");
-                __builder2.AddMarkupContent(11, "\r\n                    ");
-                __builder2.AddMarkupContent(12, "<div class=\"col-5\">\r\n                        <h1 class=\"text-info\">Product Sizes List</h1>\r\n                    </div>\r\n                    ");
-                __builder2.OpenElement(13, "div");
-                __builder2.AddAttribute(14, "class", "col-3");
-                __builder2.AddMarkupContent(15, "\r\n                        ");
-                __builder2.OpenElement(16, "button");
-                __builder2.AddAttribute(17, "class", "btn btn-info form-control");
-                __builder2.AddAttribute(18, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+                __builder2.OpenElement(3, "div");
+                __builder2.AddAttribute(4, "class", "container border p-3");
+                __builder2.OpenElement(5, "div");
+                __builder2.AddAttribute(6, "class", "row");
+                __builder2.AddMarkupContent(7, "<div class=\"col-5\"><h1 class=\"text-info\">Product Sizes List</h1></div>\r\n                    ");
+                __builder2.OpenElement(8, "div");
+                __builder2.AddAttribute(9, "class", "col-3");
+                __builder2.OpenElement(10, "button");
+                __builder2.AddAttribute(11, "class", "btn btn-info form-control");
+                __builder2.AddAttribute(12, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 22 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductSizePage.razor"
                                                                             AddNewProductSize
@@ -143,22 +137,17 @@ using BlazingShop.Services;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddContent(19, "Add New Product Size");
+                __builder2.AddContent(13, "Add New Product Size");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(20, "\r\n                    ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(21, "\r\n                ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(22, "\r\n\r\n                ");
-                __builder2.OpenElement(23, "div");
-                __builder2.AddAttribute(24, "class", "row pt-4");
-                __builder2.AddMarkupContent(25, "\r\n                    ");
-                __builder2.OpenElement(26, "table");
-                __builder2.AddAttribute(27, "class", "table table-striped");
-                __builder2.AddMarkupContent(28, "\r\n                        ");
-                __builder2.AddMarkupContent(29, "<thead>\r\n                            <tr>\r\n                                <th>Product Size</th>\r\n                                <th></th>\r\n                            </tr>\r\n                        </thead>\r\n                        ");
-                __builder2.OpenElement(30, "tbody");
-                __builder2.AddMarkupContent(31, "\r\n");
+                __builder2.AddMarkupContent(14, "\r\n\r\n                ");
+                __builder2.OpenElement(15, "div");
+                __builder2.AddAttribute(16, "class", "row pt-4");
+                __builder2.OpenElement(17, "table");
+                __builder2.AddAttribute(18, "class", "table table-striped");
+                __builder2.AddMarkupContent(19, "<thead><tr><th>Product Size</th>\r\n                                <th></th></tr></thead>\r\n                        ");
+                __builder2.OpenElement(20, "tbody");
 #nullable restore
 #line 35 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductSizePage.razor"
                              foreach (var obj in productsizes)
@@ -167,11 +156,9 @@ using BlazingShop.Services;
 #line default
 #line hidden
 #nullable disable
-                __builder2.AddContent(32, "                                ");
-                __builder2.OpenElement(33, "tr");
-                __builder2.AddMarkupContent(34, "\r\n                                    ");
-                __builder2.OpenElement(35, "td");
-                __builder2.AddContent(36, 
+                __builder2.OpenElement(21, "tr");
+                __builder2.OpenElement(22, "td");
+                __builder2.AddContent(23, 
 #nullable restore
 #line 38 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductSizePage.razor"
                                          obj.Size
@@ -181,13 +168,12 @@ using BlazingShop.Services;
 #nullable disable
                 );
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(37, "\r\n                                    ");
-                __builder2.OpenElement(38, "td");
-                __builder2.AddMarkupContent(39, "\r\n                                        ");
-                __builder2.OpenElement(40, "button");
-                __builder2.AddAttribute(41, "class", "btn btn-primary");
-                __builder2.AddAttribute(42, "style", "width:150px");
-                __builder2.AddAttribute(43, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+                __builder2.AddMarkupContent(24, "\r\n                                    ");
+                __builder2.OpenElement(25, "td");
+                __builder2.OpenElement(26, "button");
+                __builder2.AddAttribute(27, "class", "btn btn-primary");
+                __builder2.AddAttribute(28, "style", "width:150px");
+                __builder2.AddAttribute(29, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 40 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductSizePage.razor"
                                                                                                       (()=>EditProductSize(obj))
@@ -196,13 +182,10 @@ using BlazingShop.Services;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddMarkupContent(44, "\r\n                                            Edit\r\n                                        ");
+                __builder2.AddMarkupContent(30, "\r\n                                            Edit\r\n                                        ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(45, "\r\n                                    ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(46, "\r\n                                ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(47, "\r\n");
 #nullable restore
 #line 45 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductSizePage.razor"
                             }
@@ -210,15 +193,10 @@ using BlazingShop.Services;
 #line default
 #line hidden
 #nullable disable
-                __builder2.AddContent(48, "                        ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(49, "\r\n                    ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(50, "\r\n                ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(51, "\r\n            ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(52, "\r\n");
 #nullable restore
 #line 50 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductSizePage.razor"
         }
@@ -226,7 +204,6 @@ using BlazingShop.Services;
 #line default
 #line hidden
 #nullable disable
-                __builder2.AddMarkupContent(53, "\r\n");
 #nullable restore
 #line 52 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductSizePage.razor"
          if (ShowPopup)
@@ -235,15 +212,13 @@ using BlazingShop.Services;
 #line default
 #line hidden
 #nullable disable
-                __builder2.AddContent(54, "            ");
-                __builder2.OpenElement(55, "div");
-                __builder2.AddAttribute(56, "class", "modal");
-                __builder2.AddAttribute(57, "tabindex", "-1");
-                __builder2.AddAttribute(58, "style", "display:block");
-                __builder2.AddAttribute(59, "role", "dialog");
-                __builder2.AddMarkupContent(60, "\r\n                ");
-                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.EditForm>(61);
-                __builder2.AddAttribute(62, "Model", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Object>(
+                __builder2.OpenElement(31, "div");
+                __builder2.AddAttribute(32, "class", "modal");
+                __builder2.AddAttribute(33, "tabindex", "-1");
+                __builder2.AddAttribute(34, "style", "display:block");
+                __builder2.AddAttribute(35, "role", "dialog");
+                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.EditForm>(36);
+                __builder2.AddAttribute(37, "Model", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Object>(
 #nullable restore
 #line 55 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductSizePage.razor"
                                   objProductSize
@@ -252,7 +227,7 @@ using BlazingShop.Services;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(63, "OnValidSubmit", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Forms.EditContext>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Forms.EditContext>(this, 
+                __builder2.AddAttribute(38, "OnValidSubmit", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Forms.EditContext>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Forms.EditContext>(this, 
 #nullable restore
 #line 55 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductSizePage.razor"
                                                                   ValidSubmit
@@ -261,20 +236,16 @@ using BlazingShop.Services;
 #line hidden
 #nullable disable
                 )));
-                __builder2.AddAttribute(64, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Forms.EditContext>)((context) => (__builder3) => {
-                    __builder3.AddMarkupContent(65, "\r\n                    ");
-                    __builder3.OpenElement(66, "div");
-                    __builder3.AddAttribute(67, "class", "modal-dialog");
-                    __builder3.AddMarkupContent(68, "\r\n                        ");
-                    __builder3.OpenElement(69, "div");
-                    __builder3.AddAttribute(70, "class", "modal-content");
-                    __builder3.AddMarkupContent(71, "\r\n                            ");
-                    __builder3.OpenElement(72, "div");
-                    __builder3.AddAttribute(73, "class", "modal-header");
-                    __builder3.AddMarkupContent(74, "\r\n                                ");
-                    __builder3.OpenElement(75, "h3");
-                    __builder3.AddAttribute(76, "class", "text-info");
-                    __builder3.AddContent(77, 
+                __builder2.AddAttribute(39, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Forms.EditContext>)((context) => (__builder3) => {
+                    __builder3.OpenElement(40, "div");
+                    __builder3.AddAttribute(41, "class", "modal-dialog");
+                    __builder3.OpenElement(42, "div");
+                    __builder3.AddAttribute(43, "class", "modal-content");
+                    __builder3.OpenElement(44, "div");
+                    __builder3.AddAttribute(45, "class", "modal-header");
+                    __builder3.OpenElement(46, "h3");
+                    __builder3.AddAttribute(47, "class", "text-info");
+                    __builder3.AddContent(48, 
 #nullable restore
 #line 59 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductSizePage.razor"
                                                         objProductSize.Id != 0 ? "Update" : "Create" 
@@ -283,13 +254,13 @@ using BlazingShop.Services;
 #line hidden
 #nullable disable
                     );
-                    __builder3.AddContent(78, " Product Size");
+                    __builder3.AddContent(49, " Product Size");
                     __builder3.CloseElement();
-                    __builder3.AddMarkupContent(79, "\r\n                                ");
-                    __builder3.OpenElement(80, "button");
-                    __builder3.AddAttribute(81, "type", "button");
-                    __builder3.AddAttribute(82, "class", "close");
-                    __builder3.AddAttribute(83, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+                    __builder3.AddMarkupContent(50, "\r\n                                ");
+                    __builder3.OpenElement(51, "button");
+                    __builder3.AddAttribute(52, "type", "button");
+                    __builder3.AddAttribute(53, "class", "close");
+                    __builder3.AddAttribute(54, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 60 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductSizePage.razor"
                                                                               ClosePopup
@@ -298,38 +269,31 @@ using BlazingShop.Services;
 #line hidden
 #nullable disable
                     ));
-                    __builder3.AddMarkupContent(84, "\r\n                                    ");
-                    __builder3.AddMarkupContent(85, "<span aria-hidden=\"true\">X</span>\r\n                                ");
+                    __builder3.AddMarkupContent(55, "<span aria-hidden=\"true\">X</span>");
                     __builder3.CloseElement();
-                    __builder3.AddMarkupContent(86, "\r\n                            ");
                     __builder3.CloseElement();
-                    __builder3.AddMarkupContent(87, "\r\n                            ");
-                    __builder3.OpenElement(88, "div");
-                    __builder3.AddAttribute(89, "class", "modal-body");
-                    __builder3.AddMarkupContent(90, "\r\n                                ");
-                    __builder3.OpenComponent<Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator>(91);
+                    __builder3.AddMarkupContent(56, "\r\n                            ");
+                    __builder3.OpenElement(57, "div");
+                    __builder3.AddAttribute(58, "class", "modal-body");
+                    __builder3.OpenComponent<Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator>(59);
                     __builder3.CloseComponent();
-                    __builder3.AddMarkupContent(92, "\r\n                                ");
-                    __builder3.OpenComponent<Microsoft.AspNetCore.Components.Forms.ValidationSummary>(93);
+                    __builder3.AddMarkupContent(60, "\r\n                                ");
+                    __builder3.OpenComponent<Microsoft.AspNetCore.Components.Forms.ValidationSummary>(61);
                     __builder3.CloseComponent();
-                    __builder3.AddMarkupContent(94, "\r\n                                ");
-                    __builder3.OpenElement(95, "div");
-                    __builder3.AddAttribute(96, "class", "row");
-                    __builder3.AddMarkupContent(97, "\r\n                                    ");
-                    __builder3.OpenElement(98, "div");
-                    __builder3.AddAttribute(99, "class", "col-9");
-                    __builder3.AddMarkupContent(100, "\r\n                                        ");
-                    __builder3.OpenElement(101, "div");
-                    __builder3.AddAttribute(102, "class", "row py-2");
-                    __builder3.AddMarkupContent(103, "\r\n                                            ");
-                    __builder3.AddMarkupContent(104, "<div class=\"col-4\">\r\n                                                Product Size\r\n                                            </div>\r\n                                            ");
-                    __builder3.OpenElement(105, "div");
-                    __builder3.AddAttribute(106, "class", "col-8");
-                    __builder3.AddMarkupContent(107, "\r\n                                                ");
-                    __builder3.OpenElement(108, "input");
-                    __builder3.AddAttribute(109, "class", "form-control");
-                    __builder3.AddAttribute(110, "type", "text");
-                    __builder3.AddAttribute(111, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
+                    __builder3.AddMarkupContent(62, "\r\n                                ");
+                    __builder3.OpenElement(63, "div");
+                    __builder3.AddAttribute(64, "class", "row");
+                    __builder3.OpenElement(65, "div");
+                    __builder3.AddAttribute(66, "class", "col-9");
+                    __builder3.OpenElement(67, "div");
+                    __builder3.AddAttribute(68, "class", "row py-2");
+                    __builder3.AddMarkupContent(69, "<div class=\"col-4\">\r\n                                                Product Size\r\n                                            </div>\r\n                                            ");
+                    __builder3.OpenElement(70, "div");
+                    __builder3.AddAttribute(71, "class", "col-8");
+                    __builder3.OpenElement(72, "input");
+                    __builder3.AddAttribute(73, "class", "form-control");
+                    __builder3.AddAttribute(74, "type", "text");
+                    __builder3.AddAttribute(75, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
 #nullable restore
 #line 74 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductSizePage.razor"
                                                                                                objProductSize.Size
@@ -338,18 +302,15 @@ using BlazingShop.Services;
 #line hidden
 #nullable disable
                     ));
-                    __builder3.AddAttribute(112, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => objProductSize.Size = __value, objProductSize.Size));
+                    __builder3.AddAttribute(76, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => objProductSize.Size = __value, objProductSize.Size));
                     __builder3.SetUpdatesAttributeName("value");
                     __builder3.CloseElement();
-                    __builder3.AddMarkupContent(113, "\r\n                                            ");
                     __builder3.CloseElement();
-                    __builder3.AddMarkupContent(114, "\r\n                                        ");
                     __builder3.CloseElement();
-                    __builder3.AddMarkupContent(115, "\r\n                                        ");
-                    __builder3.OpenElement(116, "div");
-                    __builder3.AddAttribute(117, "class", "row py-2");
-                    __builder3.AddMarkupContent(118, "\r\n                                            ");
-                    __builder3.AddMarkupContent(119, "<div class=\"offset-4 col\">\r\n                                                <button class=\"btn btn-outline-primary\" type=\"submit\">Submit</button>\r\n                                            </div>\r\n");
+                    __builder3.AddMarkupContent(77, "\r\n                                        ");
+                    __builder3.OpenElement(78, "div");
+                    __builder3.AddAttribute(79, "class", "row py-2");
+                    __builder3.AddMarkupContent(80, "<div class=\"offset-4 col\"><button class=\"btn btn-outline-primary\" type=\"submit\">Submit</button></div>");
 #nullable restore
 #line 81 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductSizePage.razor"
                                              if (objProductSize.Id > 0)
@@ -358,14 +319,12 @@ using BlazingShop.Services;
 #line default
 #line hidden
 #nullable disable
-                    __builder3.AddContent(120, "                                                ");
-                    __builder3.OpenElement(121, "div");
-                    __builder3.AddAttribute(122, "class", "col");
-                    __builder3.AddMarkupContent(123, "\r\n                                                    ");
-                    __builder3.OpenElement(124, "button");
-                    __builder3.AddAttribute(125, "class", "btn btn-outline-danger");
-                    __builder3.AddAttribute(126, "type", "submit");
-                    __builder3.AddAttribute(127, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+                    __builder3.OpenElement(81, "div");
+                    __builder3.AddAttribute(82, "class", "col");
+                    __builder3.OpenElement(83, "button");
+                    __builder3.AddAttribute(84, "class", "btn btn-outline-danger");
+                    __builder3.AddAttribute(85, "type", "submit");
+                    __builder3.AddAttribute(86, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 84 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductSizePage.razor"
                                                                                                                    DeleteProductSize
@@ -374,11 +333,9 @@ using BlazingShop.Services;
 #line hidden
 #nullable disable
                     ));
-                    __builder3.AddContent(128, "Delete");
+                    __builder3.AddContent(87, "Delete");
                     __builder3.CloseElement();
-                    __builder3.AddMarkupContent(129, "\r\n                                                ");
                     __builder3.CloseElement();
-                    __builder3.AddMarkupContent(130, "\r\n");
 #nullable restore
 #line 86 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductSizePage.razor"
                                             }
@@ -386,25 +343,16 @@ using BlazingShop.Services;
 #line default
 #line hidden
 #nullable disable
-                    __builder3.AddContent(131, "                                        ");
                     __builder3.CloseElement();
-                    __builder3.AddMarkupContent(132, "\r\n                                    ");
                     __builder3.CloseElement();
-                    __builder3.AddMarkupContent(133, "\r\n                                ");
                     __builder3.CloseElement();
-                    __builder3.AddMarkupContent(134, "\r\n                            ");
                     __builder3.CloseElement();
-                    __builder3.AddMarkupContent(135, "\r\n                        ");
                     __builder3.CloseElement();
-                    __builder3.AddMarkupContent(136, "\r\n                    ");
                     __builder3.CloseElement();
-                    __builder3.AddMarkupContent(137, "\r\n                ");
                 }
                 ));
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(138, "\r\n            ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(139, "\r\n");
 #nullable restore
 #line 95 "G:\ASP.NET\Practice\BlazingShop-ASP.NET-Core-with-blazor\BlazingShop\BlazingShop\Pages\ProductSizePage.razor"
         }
@@ -412,12 +360,10 @@ using BlazingShop.Services;
 #line default
 #line hidden
 #nullable disable
-                __builder2.AddContent(140, "    ");
             }
             ));
-            __builder.AddAttribute(141, "NotAuthorized", (Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>)((context) => (__builder2) => {
-                __builder2.AddMarkupContent(142, "\r\n        ");
-                __builder2.AddMarkupContent(143, "<p>You\'re not signed in.</p>\r\n    ");
+            __builder.AddAttribute(88, "NotAuthorized", (Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>)((context) => (__builder2) => {
+                __builder2.AddMarkupContent(89, "<p>You\'re not signed in.</p>");
             }
             ));
             __builder.CloseComponent();

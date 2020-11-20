@@ -85,21 +85,13 @@ using BlazorStrap;
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
-            __builder.AddMarkupContent(0, @"<div class=""text-center container"">
-    <div class=""col-12"">
-        <h3 class=""text-info"">Order appointment has been submitted!</h3>
-    </div>
-    <div class=""col-12"">
-        <img src=""/images/stones.jpg"" width=""300px"">
-    </div>
-    <div class=""col-12"">
-        <br>
+            __builder.AddMarkupContent(0, @"<div class=""text-center container""><div class=""col-12""><h3 class=""text-info"">Order appointment has been submitted!</h3></div>
+    <div class=""col-12""><img src=""/images/stones.jpg"" width=""300px""></div>
+    <div class=""col-12""><br>
         <span>We will reach out to you within one business day confirm your appointment, and we look forward to helping you with best quality and service at the lowest price!</span>
         <br>
         <br>
-        <span>If you have any questions feel free to reach out at 000-000-0000</span>
-    </div>
-</div>");
+        <span>If you have any questions feel free to reach out at 000-000-0000</span></div></div>");
         }
         #pragma warning restore 1998
     }
